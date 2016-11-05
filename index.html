@@ -5,7 +5,58 @@
    
 </head>
 <body>
+<<<<<<< HEAD
   
    你好
+=======
+    <ul class="a1">
+        <li class="a11">
+            <ul class="a111">
+                <li class="a1111"></li>
+                <li class="a1112"></li>
+                <li class="a1113"></li>
+                <li class="a1114"></li>
+            </ul>
+        </li>
+        <li class="a12">
+            <ul class="a121">
+                <li class="a1211"></li>
+                <li class="a1212"></li>
+                <li class="a1213"></li>
+                <li class="a1214"></li>
+            </ul>
+        </li> 
+        <li class="a13">
+            <ul class="a131">
+                <li  class="a1311"></li>
+                <li  class="a1312"></li>
+                <li  class="a1313"></li>
+                <li  class="a1314"></li>
+            </ul>
+        </li>
+        <li accesskey="a14">
+            <ul class="a141">
+                <li class="a1411"></li>
+                <li class="a1412"></li>
+                <li class="a1413"></li>
+                <li class="a1414"></li>
+            </ul>
+        </li>
+    </ul>
+
+    <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+    <script>
+
+        jQuery.fn.bgRed = function () {
+                $(this).css("background","red")
+        }
+        //例子
+        $("li").click(function () {
+            var $a = $(this);
+            var $b=$a.find("");  //你需要修改的地方
+            $b.bgRed();
+        })
+    </script>
+>>>>>>> e684e76f12e6b21b2d3a7a679e0cb9c0c5e83b6a
 </body>
 </html>
