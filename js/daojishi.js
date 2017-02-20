@@ -52,7 +52,6 @@ function daojishi() {
 
     });
     setTimeout(daojishi, nextTime);
-    console.log( nextTime);
 
 };
 setTimeout(daojishi, 10);
