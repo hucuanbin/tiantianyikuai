@@ -1,0 +1,397 @@
+﻿body {
+    height: 100%;
+    position: relative;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Verdana','Microsoft YaHei';
+    font-size: 12px;
+    color: #000;
+}
+
+a {
+    text-decoration: none !important;
+    color: #333333;
+}
+
+    a:link {
+        text-decoration: none !important;
+    }
+
+    a:visited {
+        text-decoration: none !important;
+    }
+
+        a:visited > div {
+            text-decoration: none !important;
+        }
+
+    a:hover {
+        color: #333 !important;
+        text-decoration: none !important;
+    }
+
+    a:active {
+        text-decoration: none !important;
+    }
+
+.a:hover {
+    text-decoration: none !important;
+    color: #52ad5d !important;
+}
+
+.p0 {
+    padding: 0px !important;
+}
+
+.wangp_jh {
+    text-align: center;
+    height: 100%;
+    background: url('../images/welcome_bg.png') repeat-x;
+}
+
+.wangp_jh_tub {
+    width: 125px;
+    height: 100px;
+    background: url(../images/welcome_logo.png) no-repeat;
+    background-size: 125px 100px;
+    margin: 0 auto;
+    position: relative;
+    top: 39px;
+}
+
+.wangp_jh_wenzi {
+    width: 115px;
+    height: 50px;
+    background: url('../images/welcome_intro.png') no-repeat;
+    background-size: 115px 50px;
+    margin: 0 auto;
+    position: relative;
+    top: 45px;
+}
+
+.wangp_jg_dl {
+    width: 245px;
+    height: 40px;
+    margin: 0 auto;
+    position: relative;
+    top: 80px;
+}
+
+    .wangp_jg_dl > a {
+        text-align: center;
+        display: inline-block;
+        height: 32px;
+        line-height: 32px;
+        font-size: 16px;
+        width: 48%;
+        cursor: pointer;
+        display: inline-block;
+        width: 245px;
+        -webkit-box-shadow: inset 0 1px 1px 0 #3380DC;
+        box-shadow: inset 0 1px 1px 0 #3380DC;
+        color: #fff;
+        border: solid 1px #2371CE;
+        background-color: #2B7BDB;
+    }
+
+.wp_index_rigt_top {
+    background: #f4f4f4;
+    background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#f4f4f4),color-stop(100%,#eee));
+    background: -webkit-linear-gradient(top,#f4f4f4 0,#eee 100%);
+    background: linear-gradient(to bottom,#f4f4f4 0,#eee 100%);
+    border-bottom: solid 1px #B3B3B3;
+    -webkit-box-shadow: 0 1px 1px 0 #DFDFDF;
+    box-shadow: 0 1px 1px 0 #DFDFDF;
+    position: relative;
+    padding: 10px;
+    overflow: auto;
+    height: 50px;
+}
+
+.top_tb_1 {
+    display: inline-block;
+    position: absolute;
+    left: 12px;
+    top: 50%;
+    margin-top: -6px;
+    font-size: 16px;
+    color: #8A8A8A;
+    padding:5px 20px;
+    padding-top:0px;
+    padding-left:0px;
+}
+
+.top_logo {
+    display: inline-block;
+    font-size: 0;
+    width: 138px;
+    height: 30px;
+    margin: 0 auto;
+    position: absolute;
+    left: 50%;
+    margin-left: -69px;
+}
+
+    .top_logo img {
+        width: 137px;
+        height: 30px;
+    }
+
+.top_shangc {
+    top: 15px;
+    right: 8px;
+    width: 54px;
+    height: 25px;
+    position: absolute;
+    overflow: hidden;
+}
+
+    .top_shangc input {
+        width: 53px;
+        height: 24px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 9;
+        opacity: 0;
+    }
+
+    .top_shangc span {
+        width: 52px;
+        height: 23px;
+        line-height: 23px;
+        position: absolute;
+        right: 0;
+        z-index: 2;
+        font-size: 14px;
+        text-align: center;
+        -webkit-box-shadow: inset 0 1px 1px 0 #fff,0px 1px 1px 0 #FCFCFC;
+        box-shadow: inset 0 1px 1px 0 #fff,0px 1px 1px 0 #FCFCFC;
+        color: #2B7AD9;
+        border: solid 1px #D5D5D5;
+        background: #f5f5f5;
+        background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#f5f5f5),color-stop(100%,#EBEBEB));
+        background: -webkit-linear-gradient(top,#f5f5f5 0,#EBEBEB 100%);
+        background: linear-gradient(to bottom,#f5f5f5 0,#EBEBEB 100%);
+        border-radius: 3px;
+        -webkit-border-radius: 3px;
+        font: normal 14px "microsoft yahei";
+        padding-top:3px;
+    }
+
+        .top_shangc span > i {
+            position: relative;
+            display: inline-block;
+            top: 1px;
+            margin-right: 2px;
+            width: 14px;
+            height: 13px;
+            background-position: 0 -48px;
+            background: url(../images/wangp_sc.png) no-repeat;
+            background-size: 14px 13px;
+            vertical-align:bottom;
+            margin-bottom:4px;
+        }
+
+.wp_index img {
+    width: 100%;
+}
+
+
+.wp_index li > a {
+    overflow: auto;
+}
+
+.wp_index li {
+    border-bottom: solid 1px #DFDFDF;
+    overflow: auto;
+    background: url(../images/souc_jia.png) no-repeat 10px 5px;
+    background-size: 40px 40px;
+    height: 50px;
+    padding: 5px 10px;
+    padding-left: 60px;
+}
+
+.wp_index div > p:first-child {
+    margin: 2px;
+    color: #000;
+}
+
+.wp_index p {
+    margin: 0px;
+    color: #aaa;
+}
+
+.wp_index_left {
+    background-color: #2E333A;
+    height: 100%;
+    width: 210px;
+    -webkit-box-shadow: inset -5px 0 10px #1E2126;
+    box-shadow: inset -5px 0 10px #1E2126;
+    position: absolute;
+    left: -210px;
+    top: 0;
+    bottom: 0;
+    z-index: 9;
+}
+
+.wp_index_left_top {
+    padding: 10px 0 10px 13px;
+    position: relative;
+    background-color: #20242A;
+}
+
+    .wp_index_left_top img {
+        width: 43px;
+        height: 43px;
+        -webkit-border-radius: 44px;
+        border-radius: 44px;
+    }
+
+    .wp_index_left_top > div {
+        position: absolute;
+        left: 70px;
+        right: 0;
+        top: 10px;
+    }
+
+    .wp_index_left_top .name {
+        color: #A8AAB0;
+        font-size: 17px;
+        padding: 3px 0;
+        white-space: nowrap;
+        height: 1.3em;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+
+    .wp_index_left_top .neic {
+        color: #66686E;
+        font-size: 11px;
+    }
+
+.wp_index_left_nr > ul {
+    border-top: solid 1px #181B1F;
+    border-bottom: solid 1px #434A54;
+}
+
+.wp_index_left_nr li {
+    border-top: solid 1px #434A54;
+    border-bottom: solid 1px #181B1F;
+}
+
+.wp_index_left_nr a {
+    display: block;
+    font-size: 15px;
+    padding: 14px 0 14px 16px;
+    color: #D5D7DD;
+}
+
+.wp_index_left_nr i {
+    display: inline-block;
+    margin-right: 12px;
+    background-image: url('../images/blackIcons.png');
+    -webkit-background-size: 16px 266px;
+    background-size: 16px 266px;
+    width: 14px;
+    height: 14px;
+}
+
+.iall {
+    background-position: 0 0;
+}
+
+.ilogout {
+    background-position: 0 -58px;
+}
+
+.wp_index_rigt {
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    min-height: 100%;
+}
+
+.wp_index_rigt, .wp_index_left {
+    -webkit-transform: translate3d(0px,0px,0px);
+    transition: all 300ms ease;
+}
+
+.shou > .wp_index_rigt {
+    margin-left: 210px;
+}
+
+.shou > .wp_index_left {
+    left:0px;
+}
+
+.wp_index_luj {
+    padding: 8px 12px 6px;
+    line-height: 24px;
+    border-bottom: solid 1px #DFDFDF;
+}
+
+    .wp_index_luj > a {
+        color: #4C7BBC;
+    }
+
+    .wp_index_luj > * {
+        font-size: 15px;
+    }
+
+.right {
+    float: right;
+    color: #aaa;
+}
+
+.wangp_nr > ul > li {
+    background: none;
+    position:relative;
+}
+
+.wangp_nr b {
+    display:inline-block;
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    position: relative;
+    background-image: url('../images/common.png');
+    -webkit-background-size: 364px 40px;
+    background-size: 364px 40px;
+    position:absolute;
+    top:5px;
+    left:10px;
+}
+.wp_nr_apk{
+    background-position: 0 0;
+}
+.wp_nr_rar {
+    background-position: -280px 0;
+}
+.wp_nr_weizhi {
+    background-position: -40px 0;
+}
+.wp_nr_doc {
+    background-position: -80px 0;
+}
+.wp_nr_exe {
+    background-position: -120px 0;
+}
+.wp_nr_shiping {
+    background-position: -160px 0;
+}
+.wp_nr_yinyue {
+    background-position: -200px 0;
+}
+.wp_nr_PDF {
+    background-position: -240px 0;
+}
+.wp_nr_TXT {
+    background-position: -320px 0;
+}
+

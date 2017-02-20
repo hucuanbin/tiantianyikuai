@@ -1,0 +1,188 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta content="telephone=no" name="format-detection" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <title></title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        p {
+            font-size: 22px;
+            color: #fff;
+        }
+
+        .container {
+            /*background:black;*/
+            height: 200px;
+            width: 200px;
+            position: absolute;
+            z-index: 1;
+            -webkit-transform-style: preserve-3d;
+            -moz-transform-style: preserve-3d;
+            -ms-transform-style: preserve-3d;
+            -o-transform-style: preserve-3d;
+            transform-style: preserve-3d;
+            -webkit-transform: rotateX(-10deg) rotateY(45deg);
+            -moz-transform: rotateX(-10deg) rotateY(45deg);
+            -ms-transform: rotateX(-10deg) rotateY(45deg);
+            -o-transform: rotateX(-10deg) rotateY(45deg);
+            transform: rotateX(-10deg) rotateY(45deg);
+        }
+
+            .container div {
+                height: 200px;
+                width: 200px;
+                position: absolute;
+                left: 0;
+                top: 0;
+                color: #fff;
+                line-height: 50px;
+                text-align: center;
+                font-weight: bold;
+                cursor: pointer;
+                -webkit-transition: 500ms all ease;
+                -moz-transition: 500ms all ease;
+                -ms-transition: 500ms all ease;
+                -o-transition: 500ms all ease;
+                transition: 500ms all ease;
+            }
+
+                .container div div {
+                    border: 1px solid #fff; /* rgba( 255,255,255, 1 ) */
+                    box-shadow: 1px 0 3px #fff,1px 0px 10px #efefef;
+                    border-radius: 4px;
+                    background: -webkit-radial-gradient(center, #d81002, #b20c00 );
+                    background: -moz-radial-gradient(center, #d81002, #b20c00 );
+                    background: -ms-radial-gradient(center, #d81002, #b20c00 );
+                    background: -o-radial-gradient(center, #d81002, #b20c00 );
+                    background: radial-gradient(center, #d81002, #b20c00 );
+                    overflow: hidden;
+                }
+
+                    .container div div:hover {
+                        background: -webkit-radial-gradient(center, #f00, #b20c00 );
+                        background: -moz-radial-gradient(center, #f00, #b20c00 );
+                        background: -ms-radial-gradient(center, #f00, #b20c00 );
+                        background: -o-radial-gradient(center, #f00, #b20c00 );
+                        background: radial-gradient(center, #f00, #b20c00 );
+                    }
+
+                .container div ul {
+                    list-style: none;
+                    margin: 6.2px;
+                }
+
+                .container div li {
+                    width: 12.5px;
+                    height: 12.5px;
+                    float: left;
+                    overflow: hidden;
+                    -webkit-transition: 500ms all ease;
+                    -moz-transition: 500ms all ease;
+                    -ms-transition: 500ms all ease;
+                    -o-transition: 500ms all ease;
+                    transition: 500ms all ease;
+                }
+
+                    .container div li span {
+                        width: 10px;
+                        height: 10px;
+                        margin: 0.1px auto;
+                        display: block;
+                        background: -webkit-linear-gradient(top, #eee, #fff );
+                        background: -moz-linear-gradient(top, #eee, #fff );
+                        background: -ms-linear-gradient(top, #eee, #fff );
+                        background: -o-linear-gradient(top, #eee, #fff );
+                        background: linear-gradient(top, #eee, #fff );
+                        border-radius: 5px;
+                        box-shadow: -1px -1px 2px #000;
+                    }
+    </style>
+
+</head>
+<body>
+    <style>
+        html, body {
+            height: 100%;
+            width: 100%;
+        }
+    </style>
+    <div id="outer1" style="height:100%;width:100%;">
+        <div class="container" style="top: 53px;left:51px; -webkit-transform: rotateX(0deg) rotateY(0deg); transform: rotateX(150deg) rotateY(150deg);" data-heng="4" data-shu="3">
+         <!--高位250 translateZ(125px) -->
+            
+              <div style="-webkit-transform: rotateX(0deg) rotateY(0deg)   translateZ(100px); transform: rotateX(0deg) rotateY(0deg) translateZ(70x); background:#f00; opacity: 1;">
+                <p>你</p>
+            </div>
+            <div style="-webkit-transform: rotateX(0deg) rotateY(180deg)  translateZ(100px) ; transform: rotateX(0deg) rotateY(180deg) translateZ(70x);background:#ff6a00 ; opacity: 1;">
+                <p>好</p>
+            </div>
+            <div style="-webkit-transform: rotateX(-90deg) rotateY(0deg) translateZ(100px) ; transform: rotateX(-90deg) rotateY(0deg) translateZ(70x);background:#b6ff00 ; opacity: 1;">
+                <p>吗</p>
+            </div>
+            <div style="-webkit-transform: rotateX(90deg) rotateY(0deg) translateZ(100px) ; transform: rotateX(90deg) rotateY(0deg) translateZ(70x);background:#0026ff  ; opacity: 1;">
+                <p>啊</p>
+            </div>
+        </div>
+
+    </div>
+    <!--<script>
+        var a = 10;
+        var daojishi = setInterval(function () {
+                $(".container").css({
+                    "-webkit-transform": "rotateX(" + a + "deg) rotateY(0deg)",
+                    "transform": "rotateX(" + a + "deg) rotateY(0deg)",
+                })
+                a += 10;
+        }
+            ,50);
+    </script>-->
+
+    <script>
+        var startX,//触摸时的坐标
+          startY,
+          x, //滑动的距离
+          y,
+          aboveY = 0; //设一个全局变量记录上一次内部块滑动的位置
+
+
+        // var inner1 = document.getElementById("inner1");
+        //   var inner1 = $(".container");
+
+        function touchSatrt(e) {//触摸
+            var touch = e.touches[0];
+            startY = touch.pageY; //刚触摸时的坐标
+        }
+        function touchMove(e) {//滑动
+            var touch = e.touches[0];
+            y = touch.pageY - startY;//滑动的距离
+            //inner.style.webkitTransform = 'translate(' + 0+ 'px, ' + y + 'px)'; //也可以用css3的方式
+            //  inner1.style.left = aboveX1 + x1 + "px"; //这一句中的
+            var juli =( aboveY + y)*-1;
+            $(".container").css({
+                "-webkit-transform": "rotateX(" + juli + "deg) rotateY(0deg)",
+                "transform": "rotateX(" + juli + "deg) rotateY(0deg)",
+            });
+            $(".container").attr("data-data", juli)
+        }
+
+        function touchEnd(e) {//手指离开屏幕
+            aboveY = parseInt($(".container").attr("data-data"));
+            // aboveX1 = parseInt(inner1.style.left);//touch结束后记录内部滑块滑动的位置 在全局变量中体现 一定要用parseInt()将其转化为整数字;
+
+        }//
+        document.getElementById("outer1").addEventListener('touchstart', touchSatrt, false);
+        document.getElementById("outer1").addEventListener('touchmove', touchMove, false);
+        document.getElementById("outer1").addEventListener('touchend', touchEnd, false);
+    </script>
+
+
+
+</body>
+</html>

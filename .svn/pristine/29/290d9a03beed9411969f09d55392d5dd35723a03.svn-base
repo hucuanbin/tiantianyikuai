@@ -1,0 +1,172 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta content="telephone=no" name="format-detection" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/shouji-css.css" rel="stylesheet" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <title></title>
+</head>
+<body>
+    <link href="css/styles.css" rel="stylesheet" />
+    <script src="js/yxMobileSlider1.js"></script>
+    <div class="container-fluid  p0 index_top_lunbo sp_xq_lunbo">
+        <div class="kePublic kePublic1">
+            <!--效果html开始-->
+            <div class="slider1">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <img src="images/shangp_lunb.jpg">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/shangp_lunb.jpg">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/shangp_lunb.jpg">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <script>
+            $(".slider1").yxMobileSlider1({ width: 410, height: 380, during: 5000 })
+        </script>
+        <p class="xq_bt">(第6758)期 iPone6 4.7英寸 64G</p>
+        <p class="xq_zongxu">总需：6088人次</p>
+        <!-- 商品未揭晓（开始） -->
+        <div class="xq_jxshij">
+            <p class="dao_time" data-data="143858269000">
+                揭晓倒计时
+                <span><b class="time_fen">00</b>:<b class="time_miao">00</b>:<b class="time_seimiao">00</b></span>
+                <a href="jisuan.html">查看计算详情</a>
+            </p>
+        </div>
+        <div class="sq_no_canyu">
+            您没有参与本次夺宝哦！
+        </div>
+        <!-- 商品未揭晓（结束） -->
+        <!-- 商品揭晓（开始） -->
+        <div class="sq_huoj">
+
+
+            <div>
+                <div class="col-xs-3">
+                    <a style="padding:0px;" href="yonghu.html">
+                        <img src="images/youx.jpg" />
+                    </a>
+                </div>
+                <div class="col-xs-9">
+                    <p>获奖者:<a class="color_0079FE" href="yonghu.html">顺林</a><b class="color_558F04">(浙江省)</b></p>
+                    <p>用户ID:53270017(唯一不变标识)</p>
+                    <p>本期参与:100人次<a class="color_0079FE">查看Ta的号码</a></p>
+                    <p class="xq_jx_time">揭晓时间:</p>
+                </div>
+            </div>
+            <div class="xq_jxshij">
+                <p class="dao_time">
+                    幸运号码：
+                    <span>
+                        10002082
+                    </span>
+                    <a href="jisuan.html">查看计算详情</a>
+                </p>
+            </div>
+            <b class="zhongj_tu">
+
+            </b>
+        </div>
+
+        <div class="sq_no_canyu jx_cayu">
+            <p>您参与了：<b class="mo_xz">2</b>人次</p>
+            <ul>
+                <li>夺宝号码：</li>
+                <li>12345678</li>
+                <li>10001048</li>
+                <li>10001048</li>
+                <li>10001048</li>
+                <li>10001048</li>
+                <li>10001048</li>
+            </ul>
+        </div>
+        <!-- 商品揭晓（结束） -->
+    </div>
+    <div class="sq_xz m-10 container-fluid p0">
+        <a href="twxq.html">
+            <div>
+                图文详情<span>（建议在WIFI下查看）</span>
+                <b class="glyphicon glyphicon-menu-right right"></b>
+            </div>
+        </a>
+        <a href="wqjx.html">
+            <div>
+                往期揭晓
+                <b class="glyphicon glyphicon-menu-right right"></b>
+            </div>
+        </a>
+        <a href="shandan_index.html">
+            <div>
+                晒单分享
+                <b class="glyphicon glyphicon-menu-right right"></b>
+            </div>
+        </a>
+    </div>
+    <div class="goumai_xq m-10 container-fluid p0">
+        <p>所有参与者记录<span>(自2015-07-14  09:21:49开始)</span></p>
+        <div>
+            <a href="yonghu.html">
+                <img src="images/youx.jpg" class="img-circle" />
+            </a>
+            <div>
+                <a class="color_0079FE" href="yonghu.html">我是姓名</a>
+                <div class="sq_dizhi">(我是地址)</div>
+            </div>
+            <div>参与了<span class="cyz_renci">1111</span>人次 2015-07-15 09:48:04.153</div>
+        </div>
+        <div>
+            <a href="yonghu.html">
+                <img src="images/youx.jpg" class="img-circle" />
+            </a>
+            <div>
+                <a class="color_0079FE" href="yonghu.html">我是姓名</a>
+                <div class="sq_dizhi">(我是地址我是地址我是地址我是地址我是地址)</div>
+            </div>
+            <div>参与了<span class="cyz_renci">1111</span>人次 2015-07-15 09:48:04.153</div>
+        </div>
+    </div>
+    <div class="hei_di">
+
+    </div>
+
+    <!--未揭晓（开始）-->
+    <div class="index_bton container-fluid no_jx_bton">
+        <button class="btn_quan">立即参与</button>
+        <button class="btn_quan">加入清单</button>
+    </div>
+    <!--未揭晓（结束）-->
+    <!--揭晓（开始）-->
+    <div class="index_bton container-fluid yes_jx_bton">
+        <span>
+            第6577期正在火热进行中...
+        </span>
+        <button class="btn_quan">
+            立即前往
+        </button>
+    </div>
+    <!--揭晓（结束）-->
+    <script src="js/daojishi.js"></script>
+    <script>
+        $(document).ready(function () {
+
+            var time = new Date(parseInt($(".dao_time").attr("data-data") * 10));
+            $(".xq_jx_time").text("揭晓时间：" + time.toLocaleString());
+        })
+    </script>
+</body>
+</html>

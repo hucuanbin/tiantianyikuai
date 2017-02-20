@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta content="telephone=no" name="format-detection" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/shouji-css.css" rel="stylesheet" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <title></title>
+</head>
+<body>
+    <div class="container-fluid nr_top_1">
+        <a  class="glyphicon glyphicon-backward" ></a>
+        <b>上榜规则</b>
+    </div>
+    <div class="container-fluid shangb_guiz_index p0">
+        <div>
+            <p><b class="mo_xz">1</b>土豪君</p>
+             <p>在开奖倒记人次为0时,结束土豪军特权的竞选,最后出现在土豪君位置的用户将获得上榜特权</p>
+            <img src="images/phb_gz_1.png"/>
+        </div>
+        <div>
+            <p><b class="mo_xz">2</b>沙发君</p>
+            <p>为了感谢勇于争先的您,第一位参与当期夺宝的用户,将出现在沙发君位置,并获得上榜特权</p>
+            <img src="images/phb_gz_2.png" />
+
+        </div>
+        <div>
+            <p><b class="mo_xz">3</b>包尾君</p>
+            <p>您的包尾结束了我们的等待,让奖品第一时间找到他的获奖者,最后为参与当期夺宝的用户将出现在包尾君位置,并获得上榜特权</p>
+            <img src="images/phb_gz_3.png" />
+         </div>
+    </div>
+
+    <div class="container-fluid text-center m-10">
+        <span class="shangb_tq">上榜者特权,敬请期待 ！</span>
+    </div>
+</body>
+</html>

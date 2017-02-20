@@ -1,0 +1,87 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta content="telephone=no" name="format-detection" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/shouji-css.css" rel="stylesheet" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <title></title>
+</head>
+<body>
+    <style>
+        body {
+            background: #fff;
+        }
+    </style>
+    <div class="container-fluid hb_815_top p0">
+        <img class="img-responsive" src="images/huod_hongb_too_1.png" />
+        <div>
+            <!--
+                       <p style="font-size:1.35rem;margin-bottom:2px">您已经累计<b style="font-size:1.7rem;">8</b>次抽红包机会</p>
+            -->
+            <p style="font-size:1.35rem;margin-bottom:2px;" class="text-center">您已累计<b style="font-size:1.7rem;"> 8</b> 个红包</p>
+
+            <div class="col-xs-7">
+                <p>您已抽到现金红包</p>
+                <p>共计<b style="width:56px;display:inline-block;" class="text-center">82.15</b>元</p>
+            </div>
+            <div class="col-xs-5">
+                <a class="chaihb">拆红包</a>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid hb_815_2">
+        <div>
+            <span class="duoc hb_zhong">多参与多得</span>
+            <p class="hb_826_p">
+                凡在『天天一块』参与一元夺宝红包活动专区内的奖品，每消费满2元，并关注『天天一块』微信公众号的用户，即可获得微信随机红包1个，红包领取不设上限，多参与多得；
+            </p>
+            <img src="images/huod_hongb_too_2.png" class="img-responsive" style="margin-bottom:20px" />
+            <p class="hb_826_p">
+                举个栗子：小明在红包活动专区选了3样奖品，参与共计11元，那么小明可获得5次红包机会；狗蛋选了5样奖品，参与共计30元，其中活动专区的奖品参与共计18元，那么狗蛋可获得9次红包机会。
+            </p>
+            <div class="text-center">
+                <a>
+                    <img src="images/huod_hongb_too_btn1.png" class="img-responsive" style="width:50%;margin:0px auto;" />
+                </a>
+            </div>
+        </div>
+        <div>
+            <span class="pengy hb_zhong">呼朋唤友,红包翻倍</span>
+            <p class="hb_826_p">
+                用户通过天天一块分享给好友，每邀请一个好友成功参与『天天一块』活动专区的一元夺宝并领取红包，该用户即获赠1个随机分享红包，1个好友可为用户博得1次微信红包的机会，邀请人数不限。
+            </p>
+            <div class="text-center">
+                <img src="images/huod_hongb_too_3.png" class="img-responsive"/>
+                <a>
+                    <img src="images/huod_hongb_too_4.png" class="img-responsive" style="margin-bottom:20px;" />
+                </a>
+                <a>
+                    <img src="images/huod_hongb_too_btn2.png" class="img-responsive" style="width:50%;margin:0px auto;" />
+                </a>
+            </div>
+        </div>
+        <div class="hb_tx">
+            <span class="hb_dz hb_zhong">红包提现方式及到帐时间</span>
+            <p class="gbti_p">1<label>红包提现方式<em></em></label></p>
+            <p class="hb_826_p">
+                获得的红包（满额红包+分享红包），将合计统一自动存入您的微信零钱包中，请确保您已关注『天天一块』；
+            </p>
+            <p class="gbti_p">2<label>红包到帐时间<em></em></label></p>
+            <p class="hb_826_p">
+                获得的红包将在次日10:00统一统计发放（节假日顺延）；
+            </p>
+            <p class="gbti_p">3<label>红包提现处理<em></em></label></p>
+            <p class="hb_826_p">
+                经统计，红包总额大于等于1元的，即自动存入您的微信零钱包；红包总额小于1元的，自动累积到次日红包积累中，活动结束后仍不足1元的，天天一块将赠送1云豆至您的天天账户中。
+            </p>
+        </div>
+    </div>
+    <div class="container-fluid p10">
+        <p class="p10 hb_826_p text-center">本活动最终解释权归天天一块所有
+</p>
+    </div>
+</body>
+</html>

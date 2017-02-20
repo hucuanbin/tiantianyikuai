@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta content="telephone=no" name="format-detection" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/shouji-css.css" rel="stylesheet" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <title></title>
+</head>
+<body style="background:#F16925">
+    <div class="xinr_hb_top container-fluid p0">
+        <img src="images/xr_youj.png" />
+    </div>
+    <div class="xinr_hb_top container-fluid p0">
+        <img src="images/xr_youj_1.png" />
+        <div class="ol_px rx_hb_shuom">
+            <label>
+                活动规则
+                <span></span>
+            </label>
+            <ol>
+                <li>凡在活动期间，成为天天一块新用户，即可赠获5个云豆;</li>
+                <li>赠送的云豆将存入会员账户，可直接参与夺宝活动，不可转赠、提现;</li>
+                <li>每个用户云豆只可享受一次新人奖励;</li>
+                <li>活动结束即停止赠送，敬请谅解;</li>
+                <li>本活动最终解释权归天天一块所有;</li>
+            </ol>
+        </div>
+        <img src="images/xr_youj_3.png" />
+    </div>
+
+</body>
+</html>

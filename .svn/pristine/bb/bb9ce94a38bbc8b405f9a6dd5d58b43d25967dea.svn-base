@@ -1,0 +1,206 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta content="telephone=no" name="format-detection" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/shouji-css.css" rel="stylesheet" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <title></title>
+</head>
+<body>
+    <div class="container-fluid p0">
+        <img src="images/hd_zhuanq_xq_top.png" class="img-responsive" />
+    </div>
+    <div class="container-fluid p0">
+        <img src="images/hd_zhuanq_xq_diqu.png" class="img-responsive" />
+    </div>
+    <div class="container-fluid m-10 remrn_jiangp">
+        <div>
+            <a>
+                <img src="images/shangpin_1.png"  class="sp_Name" />';
+                <p>iPhone 4.7英寸 64G</p>
+            </a>
+
+            <div class="jindu_tiao col-xs-8 p0">
+                <span>总需:<b class="zong_shu">6088</b>人次</span>
+                <div>
+                    <div></div>
+                </div>
+                <p>
+                    <span><b class="yi_shu">3044</b>已参与</span>
+                    <span class="right">剩余<b class="sheng_shu color_0079FE">3044</b></span>
+                </p>
+            </div>
+            <div class="col-xs-4 index_guc">
+                <img class="img-responsive gwc_tj" src="images/gouwuche.png" />
+            </div>
+        </div>
+        <div>
+            <a>
+                <img src="images/shangpin_1.png" class="sp_Name" />';
+                <p>iPhone 4.7英寸 64G</p>
+            </a>
+
+            <div class="jindu_tiao col-xs-8 p0">
+                <span>总需:<b class="zong_shu">6088</b>人次</span>
+                <div>
+                    <div></div>
+                </div>
+                <p>
+                    <span><b class="yi_shu">3044</b>已参与</span>
+                    <span class="right">剩余<b class="sheng_shu color_0079FE">3044</b></span>
+                </p>
+            </div>
+            <div class="col-xs-4 index_guc">
+                <img class="img-responsive gwc_tj" src="images/gouwuche.png" />
+            </div>
+        </div>
+        <div>
+            <a>
+                <img src="images/shangpin_1.png" class="sp_Name" />';
+                <p>iPhone 4.7英寸 64G</p>
+            </a>
+
+            <div class="jindu_tiao col-xs-8 p0">
+                <span>总需:<b class="zong_shu">6088</b>人次</span>
+                <div>
+                    <div></div>
+                </div>
+                <p>
+                    <span><b class="yi_shu">3044</b>已参与</span>
+                    <span class="right">剩余<b class="sheng_shu color_0079FE">3044</b></span>
+                </p>
+            </div>
+            <div class="col-xs-4 index_guc">
+                <img class="img-responsive gwc_tj" src="images/gouwuche.png" />
+            </div>
+        </div>
+        <div>
+            <a>
+                <img src="images/shangpin_1.png" class="sp_Name" />';
+                <p>iPhone 4.7英寸 64G</p>
+            </a>
+
+            <div class="jindu_tiao col-xs-8 p0">
+                <span>总需:<b class="zong_shu">6088</b>人次</span>
+                <div>
+                    <div></div>
+                </div>
+                <p>
+                    <span><b class="yi_shu">3044</b>已参与</span>
+                    <span class="right">剩余<b class="sheng_shu color_0079FE">3044</b></span>
+                </p>
+            </div>
+            <div class="col-xs-4 index_guc">
+                <img class="img-responsive gwc_tj" src="images/gouwuche.png" />
+            </div>
+        </div>
+
+        <div class="index_chakan" style="width:100%;">
+            <a>
+                点击查看等多奖品
+            </a>
+        </div>
+    </div>
+    <!--购物车-->
+    <a href="qingdan.html">
+        <div class="index_gwx_wq">
+            <div class="index_couwuche">
+                <b class="index_gwx_nei">1</b>
+            </div>
+        </div>
+    </a>
+    <!--像上-->
+    <div class="index_goon">
+        <span class="glyphicon glyphicon-arrow-up">
+
+        </span>
+    </div>
+
+    <!--8-25添加-->
+    <span class="wohuifei">
+        <img src="" />
+    </span>
+    <script>
+        //添加购物车
+
+        $(".gwc_tj").click(function (e) {
+            var src = $(this).parent().parent().find(".sp_Name").attr("src");
+            var a_w = $(this).parent().parent().find(".sp_Name").offset().top;
+            var a_l = $(this).parent().parent().find(".sp_Name").offset().left;
+            var a1_w = $(".index_gwx_wq").offset().top;
+            var a1_l = $(".index_gwx_wq").offset().left;
+            //    alert("TOP:"+a1_w+",left"+a1_l)
+            //  alert(gwc.offset().top);
+            $(".wohuifei>img").attr("src", src);
+            $(".wohuifei").css("display", "inline-block");
+            $(".wohuifei").css("top", a_w);
+            $(".wohuifei").css("left", a_l);
+
+
+            var time1 = setTimeout(
+                function () {
+                    $(".wohuifei>img").css("box-shadow", "0px 0px 15px #999")
+                    $(".wohuifei>img").css("transition", "0.6s linear");
+                    $(".wohuifei>img").css("border-radius", "50px");
+                    $(".wohuifei>img").css("border", "1px #ccc solid");
+
+                }, 70);
+            var time2 = setTimeout(
+                function () {
+                    $(".wohuifei").css("transition", "0.4s linear");
+                    $(".wohuifei>img").css("transition", "0.4s linear");
+                    $(".wohuifei>img").css("height", "35px");
+                    $(".wohuifei>img").css("width", "35px");
+                    $(".wohuifei").css("height", "35px");
+                    $(".wohuifei").css("width", "35px");
+                    $(".wohuifei").css("top", a1_w);
+                    $(".wohuifei").css("left", a1_l);
+                }, 970);
+            var time3 = setTimeout(
+                  function () {
+                      $(".wohuifei").css("display", "none");
+                      $(".wohuifei").attr("style", "");
+                      $(".wohuifei>img").attr("style", "");
+                      $(".xuan_fuc>span").attr("class", "atc");
+                      var shuzi = parseInt($(".index_gwx_nei").text());
+                      $(".index_gwx_nei").text(shuzi + 1);
+                  }, 1400);
+            var time4 = setTimeout(
+                        function () {
+                            $(".xuan_fuc>span").attr("class", "");
+
+                        }, 2450);
+
+
+            var pid = $(this).attr("id").substr(13);
+            add_shoppingcart(pid);
+        })
+
+    </script>
+    <!--8-25添加-->
+    <script src="js/daojishi.js"></script>
+    <script>
+
+        //出现回到顶部图标
+        $(window).scroll(function () {
+            var st = parseInt($(this).scrollTop());
+            if (st > 100) {
+                $(".index_goon").fadeIn(300);
+            }
+            else {
+                $(".index_goon").fadeOut(300);
+            }
+        });
+
+        //点击回到顶部图标
+        $(".index_goon").click(function () {
+            $('html,body').animate({ scrollTop: '0px' }, 300);
+        })
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta content="telephone=no" name="format-detection" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/huodong.css" rel="stylesheet" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <title></title>
+</head>
+<body>
+    <script src="js/bootstrap.js"></script>
+    <style>
+        body {
+            background: #FFC409;
+        }
+    </style>
+    <div class="juzhong" style="padding-bottom:20px;">
+        <div class="container-fluid p0" id="xues_zc_top">
+            <img src="images/xuesheng_zc_3_top.png" class="img-responsive" />
+        </div>
+        <div class="container-fluid p0 pos_r xues_zc_hb">
+            <img src="images/xuesheng_zc_3_index1.png" class="img-responsive" />
+            <p class="xues_zc_1 text-center">4</p>
+        </div>
+        <div class="container-fluid p0 pos_r">
+            <img src="images/xuesheng_zc_3_index2.png" class="img-responsive" />
+        </div>
+        <div class="container-fluid p0 pos_r">
+            <img src="images/xuesheng_zc_3_index3.png" class="img-responsive xue_jv_1" />
+            <a href="xuez_zhuangc_2.html">
+                <img src="images/xuesheng_zc_3_index3_bton.png" style="" class="xue_jv_2" />
+            </a>
+        </div>
+    </div>
+
+    <script>
+        document.onreadystatechange = subSomething;//当页面加载状态改变的时候执行这个方法.
+        function subSomething() {
+            $(".loding_wai").height($(window).height());
+            if (document.readyState == "complete") //当页面加载状态
+            {
+                var div_hei = parseInt($(".xue_jv_1").height());
+                $(".xue_jv_2").css({ "height": div_hei+"px"})
+            }
+        }
+    </script>
+</body>
+</html>

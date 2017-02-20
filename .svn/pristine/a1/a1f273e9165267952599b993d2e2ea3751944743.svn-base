@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta content="telephone=no" name="format-detection" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/shouji-css.css" rel="stylesheet" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <title></title>
+</head>
+<body>
+    <div class="xiuga_top">
+        <a data-toggle="modal" data-target="#myModal1" style="outline:none" href="#" class="left">取消</a>
+        新增收获地址
+        <a href="#" class="right">保存</a>
+    </div>
+    <div class="container-fluid xz_dz_tj">
+        <div>
+            <input placeholder="收货人" />
+        </div>
+        <div>
+            <input placeholder="手机号码" />
+        </div>
+        <div>
+            <input placeholder="邮政编码" />
+        </div>
+        <div>
+            省份
+            <select>
+                <option>请选择</option>
+            </select>
+        </div>
+        <div>
+            城市
+            <select>
+                <option>请选择</option>
+            </select>
+        </div>
+        <div>
+            地区
+            <select>
+                <option>请选择</option>
+            </select>
+        </div>
+        <div>
+            <textarea placeholder="详细地址"></textarea>
+        </div>
+        <div>
+            是否设为默认地址  <b data-pro="switcher" class="w-switcher"></b>
+        </div>
+        <div class="qux_mor">
+            是否设为默认地址  <b data-pro="switcher" class="w-switcher"></b>
+        </div>
+    </div>
+    <div class="container-fluid  sc_dizhi ">
+        <a class="mo_xz">删除收获地址</a>
+    </div>
+
+    <script>
+        $(".w-switcher").click(function () {
+            var a = $(this).parent().attr("class");
+            if (a != "qux_mor") {
+                $(this).parent().attr("class", "qux_mor");
+            }
+            else
+                $(this).parent().attr("class", "");
+        })
+    </script>
+</body>
+</html>

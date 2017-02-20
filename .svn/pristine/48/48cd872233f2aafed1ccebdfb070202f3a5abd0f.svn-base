@@ -1,0 +1,161 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta content="telephone=no" name="format-detection" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/shouji-css.css" rel="stylesheet" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <title></title>
+</head>
+<body>
+    <style>
+         *{
+        font-family:'方正正黑'  
+        }
+    </style>
+    <div class="container-fluid p0">
+        <img src="images/xues_zq_top.png" class="img-responsive" />
+    </div>
+    <div class="container-fluid p0 text-center zc_xq">
+        <div class="zc_xq_index">
+            <div class="zc_xq_index_0">
+                <img src="images/shangpin_1.png" style="width:70%;margin:0px auto;"/>
+                <div style="overflow:auto;vertical-align:bottom;position:relative;" class="xues_ziti">
+                    <div class="col-xs-6 p0">
+                        <p style="font-size:3vw;text-align:center;padding-left:5px;color:#FE4D00;height:7.5vw;line-height:7.5vw;">
+                            ￥<span style="font-size:7.5vw;color:#FE4D00;">1</span><span style="font-size:4vw;color:#FE4D00;";>.00</span>元
+                        </p>
+                        <p style="font-size:3.3vw;text-align:center;padding-left:5px;">总需:233</p>
+                    </div>
+                    <a style="color: #fff; width: 38%; padding: 1vw 0px; text-align: center; background: #000; display: inline-block; position: absolute; left: 50%; bottom: 0px; -moz-transform: skewX(170deg); -ms-transform: skewX(170deg); -o-transform: skewX(170deg); -webkit-transform: skewX(170deg); transform: skewX(170deg);font-size:3.2vw;font-weight:bold;">立即购买</a>
+                </div>
+                <p style="font-size:4vw;color:#FE4D00;padding:0px 5px;width:100%;padding-top:3px;" class="shengl">自行自行自行自行自行自行</p>
+            </div>
+            <div class="zc_xq_index_0">
+                <img src="images/shangpin_1.png" style="width:70%;margin:0px auto;" />
+                <div style="overflow:auto;vertical-align:bottom;position:relative;" class="xues_ziti">
+                    <div class="col-xs-6 p0">
+                        <p style="font-size:3vw;text-align:center;padding-left:5px;color:#FE4D00;height:7.5vw;line-height:7.5vw;">
+                            ￥<span style="font-size:7.5vw;color:#FE4D00;">1</span><span style="font-size:4vw;color:#FE4D00;" ;>.00</span>元
+                        </p>
+                        <p style="font-size:3.3vw;text-align:center;padding-left:5px;">总需:233</p>
+                    </div>
+                    <a style="color: #fff; width: 38%; padding: 1vw 0px; text-align: center; background: #000; display: inline-block; position: absolute; left: 50%; bottom: 0px; -moz-transform: skewX(170deg); -ms-transform: skewX(170deg); -o-transform: skewX(170deg); -webkit-transform: skewX(170deg); transform: skewX(170deg);font-size:3.2vw;font-weight:bold;">立即购买</a>
+                </div>
+                <p style="font-size:4vw;color:#FE4D00;padding:0px 5px;width:100%;padding-top:3px;" class="shengl">自行自行自行自行自行自行</p>
+            </div>
+            <div class="zc_xq_index_0">
+                <img src="images/shangpin_1.png" style="width:70%;margin:0px auto;" />
+                <div style="overflow:auto;vertical-align:bottom;position:relative;" class="xues_ziti">
+                    <div class="col-xs-6 p0">
+                        <p style="font-size:3vw;text-align:center;padding-left:5px;color:#FE4D00;height:7.5vw;line-height:7.5vw;">
+                            ￥<span style="font-size:7.5vw;color:#FE4D00;">1</span><span style="font-size:4vw;color:#FE4D00;" ;>.00</span>元
+                        </p>
+                        <p style="font-size:3.3vw;text-align:center;padding-left:5px;">总需:233</p>
+                    </div>
+                    <a style="color: #fff; width: 38%; padding: 1vw 0px; text-align: center; background: #000; display: inline-block; position: absolute; left: 50%; bottom: 0px; -moz-transform: skewX(170deg); -ms-transform: skewX(170deg); -o-transform: skewX(170deg); -webkit-transform: skewX(170deg); transform: skewX(170deg);font-size:3.2vw;font-weight:bold;">立即购买</a>
+                </div>
+                <p style="font-size:4vw;color:#FE4D00;padding:0px 5px;width:100%;padding-top:3px;" class="shengl">自行自行自行自行自行自行</p>
+            </div>
+            <div class="zc_xq_index_0">
+                <img src="images/shangpin_1.png" style="width:70%;margin:0px auto;" />
+                <div style="overflow:auto;vertical-align:bottom;position:relative;" class="xues_ziti">
+                    <div class="col-xs-6 p0">
+                        <p style="font-size:3vw;text-align:center;padding-left:5px;color:#FE4D00;height:7.5vw;line-height:7.5vw;">
+                            ￥<span style="font-size:7.5vw;color:#FE4D00;">1</span><span style="font-size:4vw;color:#FE4D00;" ;>.00</span>元
+                        </p>
+                        <p style="font-size:3.3vw;text-align:center;padding-left:5px;">总需:233</p>
+                    </div>
+                    <a style="color: #fff; width: 38%; padding: 1vw 0px; text-align: center; background: #000; display: inline-block; position: absolute; left: 50%; bottom: 0px; -moz-transform: skewX(170deg); -ms-transform: skewX(170deg); -o-transform: skewX(170deg); -webkit-transform: skewX(170deg); transform: skewX(170deg);font-size:3.2vw;font-weight:bold;">立即购买</a>
+                </div>
+                <p style="font-size:4vw;color:#FE4D00;padding:0px 5px;width:100%;padding-top:3px;" class="shengl">自行自行自行自行自行自行</p>
+            </div>
+
+            <div class="zc_xq_index_0">
+                <img src="images/shangpin_1.png" style="width:70%;margin:0px auto;" />
+                <div style="overflow:auto;vertical-align:bottom;position:relative;" class="xues_ziti">
+                    <div class="col-xs-6 p0">
+                        <p style="font-size:3vw;text-align:center;padding-left:5px;color:#FE4D00;height:7.5vw;line-height:7.5vw;">
+                            ￥<span style="font-size:7.5vw;color:#FE4D00;">1</span><span style="font-size:4vw;color:#FE4D00;" ;>.00</span>元
+                        </p>
+                        <p style="font-size:3.3vw;text-align:center;padding-left:5px;">总需:233</p>
+                    </div>
+                    <a style="color: #fff; width: 38%; padding: 1vw 0px; text-align: center; background: #000; display: inline-block; position: absolute; left: 50%; bottom: 0px; -moz-transform: skewX(170deg); -ms-transform: skewX(170deg); -o-transform: skewX(170deg); -webkit-transform: skewX(170deg); transform: skewX(170deg);font-size:3.2vw;font-weight:bold;">立即购买</a>
+                </div>
+                <p style="font-size:4vw;color:#FE4D00;padding:0px 5px;width:100%;padding-top:3px;" class="shengl">自行自行自行自行自行自行</p>
+            </div>
+            <div class="zc_xq_index_0">
+                <img src="images/shangpin_1.png" style="width:70%;margin:0px auto;" />
+                <div style="overflow:auto;vertical-align:bottom;position:relative;" class="xues_ziti">
+                    <div class="col-xs-6 p0">
+                        <p style="font-size:3vw;text-align:center;padding-left:5px;color:#FE4D00;height:7.5vw;line-height:7.5vw;">
+                            ￥<span style="font-size:7.5vw;color:#FE4D00;">1</span><span style="font-size:4vw;color:#FE4D00;" ;>.00</span>元
+                        </p>
+                        <p style="font-size:3.3vw;text-align:center;padding-left:5px;">总需:233</p>
+                    </div>
+                    <a style="color: #fff; width: 38%; padding: 1vw 0px; text-align: center; background: #000; display: inline-block; position: absolute; left: 50%; bottom: 0px; -moz-transform: skewX(170deg); -ms-transform: skewX(170deg); -o-transform: skewX(170deg); -webkit-transform: skewX(170deg); transform: skewX(170deg);font-size:3.2vw;font-weight:bold;">立即购买</a>
+                </div>
+                <p style="font-size:4vw;color:#FE4D00;padding:0px 5px;width:100%;padding-top:3px;" class="shengl">自行自行自行自行自行自行</p>
+            </div>
+            <div class="zc_xq_index_0">
+                <img src="images/shangpin_1.png" style="width:70%;margin:0px auto;" />
+                <div style="overflow:auto;vertical-align:bottom;position:relative;" class="xues_ziti">
+                    <div class="col-xs-6 p0">
+                        <p style="font-size:3vw;text-align:center;padding-left:5px;color:#FE4D00;height:7.5vw;line-height:7.5vw;">
+                            ￥<span style="font-size:7.5vw;color:#FE4D00;">1</span><span style="font-size:4vw;color:#FE4D00;" ;>.00</span>元
+                        </p>
+                        <p style="font-size:3.3vw;text-align:center;padding-left:5px;">总需:233</p>
+                    </div>
+                    <a style="color: #fff; width: 38%; padding: 1vw 0px; text-align: center; background: #000; display: inline-block; position: absolute; left: 50%; bottom: 0px; -moz-transform: skewX(170deg); -ms-transform: skewX(170deg); -o-transform: skewX(170deg); -webkit-transform: skewX(170deg); transform: skewX(170deg);font-size:3.2vw;font-weight:bold;">立即购买</a>
+                </div>
+                <p style="font-size:4vw;color:#FE4D00;padding:0px 5px;width:100%;padding-top:3px;" class="shengl">自行自行自行自行自行自行</p>
+            </div>
+            <div class="zc_xq_index_0">
+                <img src="images/shangpin_1.png" style="width:70%;margin:0px auto;" />
+                <div style="overflow:auto;vertical-align:bottom;position:relative;" class="xues_ziti">
+                    <div class="col-xs-6 p0">
+                        <p style="font-size:3vw;text-align:center;padding-left:5px;color:#FE4D00;height:7.5vw;line-height:7.5vw;">
+                            ￥<span style="font-size:7.5vw;color:#FE4D00;">1</span><span style="font-size:4vw;color:#FE4D00;" ;>.00</span>元
+                        </p>
+                        <p style="font-size:3.3vw;text-align:center;padding-left:5px;">总需:233</p>
+                    </div>
+                    <a style="color: #fff; width: 38%; padding: 1vw 0px; text-align: center; background: #000; display: inline-block; position: absolute; left: 50%; bottom: 0px; -moz-transform: skewX(170deg); -ms-transform: skewX(170deg); -o-transform: skewX(170deg); -webkit-transform: skewX(170deg); transform: skewX(170deg);font-size:3.2vw;font-weight:bold;">立即购买</a>
+                </div>
+                <p style="font-size:4vw;color:#FE4D00;padding:0px 5px;width:100%;padding-top:3px;" class="shengl">自行自行自行自行自行自行</p>
+            </div>
+            <div class="zc_xq_index_0">
+                <img src="images/shangpin_1.png" style="width:70%;margin:0px auto;" />
+                <div style="overflow:auto;vertical-align:bottom;position:relative;" class="xues_ziti">
+                    <div class="col-xs-6 p0">
+                        <p style="font-size:3vw;text-align:center;padding-left:5px;color:#FE4D00;height:7.5vw;line-height:7.5vw;">
+                            ￥<span style="font-size:7.5vw;color:#FE4D00;">1</span><span style="font-size:4vw;color:#FE4D00;" ;>.00</span>元
+                        </p>
+                        <p style="font-size:3.3vw;text-align:center;padding-left:5px;">总需:233</p>
+                    </div>
+                    <a style="color: #fff; width: 38%; padding: 1vw 0px; text-align: center; background: #000; display: inline-block; position: absolute; left: 50%; bottom: 0px; -moz-transform: skewX(170deg); -ms-transform: skewX(170deg); -o-transform: skewX(170deg); -webkit-transform: skewX(170deg); transform: skewX(170deg);font-size:3.2vw;font-weight:bold;">立即购买</a>
+                </div>
+                <p style="font-size:4vw;color:#FE4D00;padding:0px 5px;width:100%;padding-top:3px;" class="shengl">自行自行自行自行自行自行</p>
+            </div>
+            <div class="zc_xq_index_0">
+                <img src="images/shangpin_1.png" style="width:70%;margin:0px auto;" />
+                <div style="overflow:auto;vertical-align:bottom;position:relative;" class="xues_ziti">
+                    <div class="col-xs-6 p0">
+                        <p style="font-size:3vw;text-align:center;padding-left:5px;color:#FE4D00;height:7.5vw;line-height:7.5vw;">
+                            ￥<span style="font-size:7.5vw;color:#FE4D00;">1</span><span style="font-size:4vw;color:#FE4D00;" ;>.00</span>元
+                        </p>
+                        <p style="font-size:3.3vw;text-align:center;padding-left:5px;">总需:233</p>
+                    </div>
+                    <a style="color: #fff; width: 38%; padding: 1vw 0px; text-align: center; background: #000; display: inline-block; position: absolute; left: 50%; bottom: 0px; -moz-transform: skewX(170deg); -ms-transform: skewX(170deg); -o-transform: skewX(170deg); -webkit-transform: skewX(170deg); transform: skewX(170deg);font-size:3.2vw;font-weight:bold;">立即购买</a>
+                </div>
+                <p style="font-size:4vw;color:#FE4D00;padding:0px 5px;width:100%;padding-top:3px;" class="shengl">自行自行自行自行自行自行</p>
+            </div>
+
+        </div>
+    </div> 
+    <div class="container-fluid p0">
+        <img src="images/xues_zq_db.png" class="img-responsive" />
+    </div>
+</body>
+</html>

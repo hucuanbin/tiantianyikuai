@@ -1,0 +1,249 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta content="telephone=no" name="format-detection" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/shouji-css.css" rel="stylesheet" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <title></title>
+</head>
+<!--轮播图片大小640*240-->
+<!--商品图片大小200*150-->
+<body>
+    <link href="css/styles.css" rel="stylesheet" />
+    <script src="js/yxMobileSlider1.js"></script>
+    <!--默认图片需要JS(开始)-->
+    <script src="js/lazyload.js"></script>
+    <script>
+    $(function () {
+        $("img").lazyload({
+            placeholder: "/images/moren.png",
+            effect: "fadeIn"
+        });
+    });
+    </script>
+    <!--默认图片需要JS(结束)-->
+
+    <div class="container-fluid p0 index_top">
+        <nav>
+            <b></b>
+            <a class="mo_xz" href="index.html">首页</a>
+            <a href="quanbu_sq.html">全部奖品</a>
+            <a href="shandan_index.html">晒单</a>
+            <a href="gerenzhongxin.html">个人中心</a>
+        </nav>
+    </div>
+    <div class="container-fluid  p0 index_top_lunbo">
+        <div class="kePublic kePublic1">
+            <!--效果html开始-->
+            <div class="slider1">
+                <ul>
+                    <li>
+                        <a href="huodong_saom.html">
+                            <img src="images/lunbo.jpg">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/lunbo.jpg">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/lunbo.jpg">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <script>
+            $(".slider1").yxMobileSlider1({ width: 640, height: 240, during: 5000 })
+        </script>
+    </div>
+    <div class="container-fluid index_fenl">
+        <a href="fen_lei.html">
+            <img src="images/index_fenl.png" />
+            <p>分类</p>
+        </a>
+        <a>
+            <img src="images/index_zhuanq.png" />
+            <p>10元专区</p>
+        </a>
+        <a>
+            <img src="images/index_yiwen.png" />
+            <p>常见问题</p>
+        </a>
+    </div>
+    <div class="container-fluid index_zjxx">
+        <img src="images/laba.png"/>
+        <p>恭喜巴拉巴拉巴拉巴拉巴拉巴拉获得 [第4572期] ihone</p>
+    </div>
+        <div class="container-fluid  zuixin_jx m-10 inde_img_100">
+            <p class="index_bt">最新揭晓</p>
+            <a href="shangp_xq.html">
+                <div class="col-xs-4">
+                    <!--默认图片格式-->
+                    <img src="/images/moren.png" data-original="images/shangpin_1.png" />';
+                    <!--默认图片格式-->
+                    <p class="dao_time" data-data="143808269000">倒计时<b class="time_fen">00</b>:<b class="time_miao">00</b>.<b class="time_seimiao">00</b></p>
+                </div>
+            </a>
+            <a>
+                <div class="col-xs-4">
+                    <img src="/images/moren.png" data-original="images/shangpin_1.png" />';
+                    <p class="dao_time" data-data="143808269000">倒计时<b class="time_fen">00</b>:<b class="time_miao">00</b>.<b class="time_seimiao">00</b></p>
+                </div>
+            </a>
+            <a>
+                <div class="col-xs-4">
+                    <img src="/images/moren.png" data-original="images/shangpin_1.png" />';
+                    <p class="dao_time" data-data="143808269000">倒计时<b class="time_fen">00</b>:<b class="time_miao">00</b>.<b class="time_seimiao">00</b></p>
+                </div>
+            </a>
+        </div>
+        <div class="container-fluid  zuixin_jx m-10 inde_img_100">
+            <p class="index_bt">上架新品<a class="right">更多</a></p>
+            <a>
+                <div class="col-xs-4">
+                    <img src="/images/moren.png" data-original="images/shangpin_1.png" />';
+                    <p class="biaoti">我是自行车我是自行车</p>
+                </div>
+            </a>
+            <a>
+                <div class="col-xs-4">
+                    <img src="/images/moren.png" data-original="images/shangpin_1.png" />';
+                    <p class="biaoti">我是手表我是手表我是手表</p>
+                </div>
+            </a>
+            <a>
+                <div class="col-xs-4">
+                    <img src="/images/moren.png" data-original="images/shangpin_1.png" />';
+                    <p class="biaoti">我是手机我是手机我是手机</p>
+                </div>
+            </a>
+        </div>
+        <div class="container-fluid m-10 remrn_jiangp">
+            <p class="index_bt">热门奖品<a class="right">更多</a></p>
+            <a>
+                <div>
+                    <img src="/images/moren.png" data-original="images/shangpin_1.png" />';
+                    <p>iPhone 4.7英寸 64G</p>
+                    <div class="jindu_tiao">
+                        <span>总需:<b class="zong_shu">6088 </b>人次</span>
+                        <div>
+                            <div></div>
+                        </div>
+                        <p>
+                            <span><b class="yi_shu">3044 </b>已参与</span>
+                            <span class="right">剩余<b class="sheng_shu color_0079FE">3044</b></span>
+                        </p>
+                    </div>
+                </div>
+            </a>
+            <a>
+                <div>
+                    <img src="/images/moren.png" data-original="images/shangpin_1.png" />';
+                    <p>iPhone 4.7英寸 64G</p>
+                    <div class="jindu_tiao">
+                        <span>总需:<b class="zong_shu">6088 </b>人次</span>
+                        <div>
+                            <div></div>
+                        </div>
+                        <p>
+                            <span><b class="yi_shu">3044 </b>已参与</span>
+                            <span class="right">剩余<b class="sheng_shu color_0079FE">3044</b></span>
+                        </p>
+                    </div>
+                </div>
+            </a>
+            <a>
+                <div>
+                    <img src="/images/moren.png" data-original="images/shangpin_1.png" />';
+                    <p>iPhone 4.7英寸 64G</p>
+                    <div class="jindu_tiao">
+                        <span>总需:<b class="zong_shu">6088 </b>人次</span>
+                        <div>
+                            <div></div>
+                        </div>
+                        <p>
+                            <span><b class="yi_shu">3044 </b>已参与</span>
+                            <span class="right">剩余<b class="sheng_shu color_0079FE">3044</b></span>
+                        </p>
+                    </div>
+                </div>
+            </a>
+            <a>
+                <div>
+                    <img src="/images/moren.png" data-original="images/shangpin_1.png" />';
+                    <p>iPhone 4.7英寸 64G</p>
+                    <div class="jindu_tiao">
+                        <span>总需:<b class="zong_shu">6088 </b>人次</span>
+                        <div>
+                            <div></div>
+                        </div>
+                        <p>
+                            <span><b class="yi_shu">3044 </b>已参与</span>
+                            <span class="right">剩余<b class="sheng_shu color_0079FE">3044</b></span>
+                        </p>
+                    </div>
+                    <div class="tu_jihe_shiyuan_xiao"></div>
+                </div>
+            </a>
+            <div class="index_chakan">
+                <a>
+                    点击查看等多奖品
+                </a>
+            </div>
+        </div>
+        <div class="container-fluid index_zhushi m-10 p0">
+            <p class="zhuming">
+                特别注明：苹果公司不是一元夺宝赞助商,并且苹果公司也不会以任何形式参与其中！
+            </p>
+            <p><a href="#" class="color_0079FE">什么是一元夺宝?</a></p>
+            <p class="index_bz">
+                <b class="index_bz_1"></b>
+                <span>公平公正公开</span>
+                <b class="index_bz_2"></b>
+                <span>正品保证</span>
+                <b class="index_bz_3"></b>
+                <span>权益保障</span>
+            </p>
+        </div>
+        <!--购物车-->
+        <a href="qingdan.html">
+            <div class="index_gwx_wq">
+                <div class="index_couwuche">
+                    <b class="index_gwx_nei">1</b>
+                </div>
+            </div>
+        </a>
+        <!--像上-->
+        <div class="index_goon">
+            <span class="glyphicon glyphicon-arrow-up">
+
+            </span>
+        </div>
+        <script src="js/daojishi.js"></script>
+        <script>
+
+            //出现回到顶部图标
+            $(window).scroll(function () {
+                var st = parseInt($(this).scrollTop());
+                if (st > 100) {
+                    $(".index_goon").fadeIn(300);
+                }
+                else {
+                    $(".index_goon").fadeOut(300);
+                }
+            });
+
+            //点击回到顶部图标
+            $(".index_goon").click(function () {
+                $('html,body').animate({ scrollTop: '0px' }, 300);
+            })
+
+        </script>
+</body>
+</html>

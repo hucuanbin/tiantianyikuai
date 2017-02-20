@@ -1,0 +1,121 @@
+﻿
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+          "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-type" content="text/html; charset=UTF-8" />
+    <title>Feature Carousel Demonstration Test</title>
+    <link rel="stylesheet" href="css/pc_css.css" />
+    <script src="js/jquery-1.7.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/ZoomPic.js"></script>
+    <style>
+   
+</style>
+    <script>
+        $(function () {
+            new ZoomPic("jswbox");
+        })    </script>
+</head>
+<body>
+    <div id="zong_hei">
+        <img src="images/pc_bg.png" style="width:100%;height:100%;" />
+        <div style="position:absolute;top:0px;left:0px;width:100%;">
+            <div style="width:1170px;min-width:1170px;margin:0px auto;">
+                <div class="container-fluid pc_top">
+                    <div class="pc_index_top_div container">
+                        <div class="col-xs-6">
+                            <img src="images/pc_tub.png" style="margin-top:5px;" />
+                        </div>
+                        <div class="col-xs-6" style="text-align:right;">
+                                <a class="pc_index_nav" href="#">首页</a>
+                                <a class="pc_index_nav" href="#">新书帮助</a>
+                                <a class="pc_index_nav" href="#">关于我们</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid pc_botn p0">
+                    <div class="container p0 text-center">
+                        <!--<div class="carousel-container">
+                <div id="carousel">
+                    <div class="carousel-feature">
+                        <a href="#"><img class="carousel-image" alt="Image Caption" src="images/pc_1 (1).png"></a>
+                    </div>
+                    <div class="carousel-feature">
+                        <a href="#"><img class="carousel-image" alt="Image Caption" src="images/pc_1 (2).png"></a>
+                    </div>
+                    <div class="carousel-feature">
+                        <a href="#"><img class="carousel-image" alt="Image Caption" src="images/pc_3.png"></a>
+                    </div>
+                    <div class="carousel-feature">
+                        <a href="#"><img class="carousel-image" alt="Image Caption" src="images/pc_4.png"></a>
+                    </div>
+                    <div class="carousel-feature">
+                        <a href="#"><img class="carousel-image" alt="Image Caption" src="images/pc_5.png"></a>
+                    </div>
+                </div>
+            </div>
+            <a id="but_prev" href="#">上一页</a>   | <a id="but_next" href="#">下一页</a>-->
+                        <img src="images/pc_biaoyu.png" style="top:110px;width:30%;position:absolute;left:50%;margin-left:-15%;" />
+                        <div class="col-xs-9 col-lg-9 col-md-9 p0" style="height:600px;">
+                            <div id="jswbox">
+                                <pre class="prev">prev</pre>
+                                <pre class="next">next</pre>
+                                <ul>
+                                    <li><img src="images/pc_1 .png" /></li>
+                                    <li><img src="images/pc_2.png" /></li>
+                                    <li><img src="images/pc_3.png" /></li>
+                                    <li><img src="images/pc_4.png" /></li>
+                                    <li><img src="images/pc_5.png" /></li>
+                                    <li><img src="images/pc_6.png" /></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xs-3 col-lg-3 col-md-3 pc_index_left">
+                            <img src="images/pc_erweima.png" class="img-responsive pc_index_erweim" />
+                            <p class="pc_index_Left_p">劲爆商品,只要1元</p>
+                            <p class="pc_index_Left_p">扫码立抢</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script>
+    </script>
+    <!--<script>
+        function getBrowserInfo() {
+            var agent = navigator.userAgent.toLowerCase();
+
+            var regStr_ie = /msie [\d.]+;/gi;
+            var regStr_ff = /firefox\/[\d.]+/gi
+            var regStr_chrome = /chrome\/[\d.]+/gi;
+            var regStr_saf = /safari\/[\d.]+/gi;
+            //IE
+            if (agent.indexOf("msie") > 0) {
+                return agent.match(regStr_ie);
+            }
+
+            //firefox
+            if (agent.indexOf("firefox") > 0) {
+                return agent.match(regStr_ff);
+            }
+
+            //Chrome
+            if (agent.indexOf("chrome") > 0) {
+                return agent.match(regStr_chrome);
+            }
+
+            //Safari
+            if (agent.indexOf("safari") > 0 && agent.indexOf("chrome") < 0) {
+                return agent.match(regStr_saf);
+            }
+
+        }
+        var browser = getBrowserInfo();
+        alert(browser); //浏览器名字+版本字符串
+        var verinfo = (browser + "").replace(/[^0-9.]/ig, "");
+        alert(verinfo); //版本号
+    </script>-->
+</body>
+</html>

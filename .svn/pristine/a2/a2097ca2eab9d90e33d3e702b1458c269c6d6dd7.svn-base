@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta content="telephone=no" name="format-detection" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/shouji-css.css" rel="stylesheet" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <title></title>
+</head>
+<body>
+    <div class="container-fluid sd_xq p0">
+        <p>真的很感谢一元夺宝</p>
+        <p><a class="color_0079FE" href="yonghu.html">送给老婆</a><span class="right">2015-07-23 18:11:53</span></p>
+        <div class="dand_zjr">
+            <p>获奖奖品：<b class="color_0079FE">(第5219期) iPone6 Plus 5.5英寸 16G</b></p>
+            <p>本期参与：<b class="mo_xz">1</b>人次</p>
+            <p>本期参与：<b class="mo_xz">10000297</b></p>
+            <p>本期参与：2015-07-21 19:43:00</p>
+        </div>
+        <div class="shaid_nr">
+            <p class="">
+                一开始的时候我是拒绝的,一开始的时候我是拒绝的,一开始的时候我是拒绝的,一开始的时候我是拒绝的一开始的时候我是拒绝的
+                ,一开始的时候我是拒绝的,一开始的时候我是拒绝的一开始的时候我是拒绝的,一开始的时候我是拒绝的,一开始的时候我是拒绝的.
+            </p>
+            <img src="images/hongbao_top1.png" />
+            <img src="images/lunbo.jpg" />
+            <img src="images/shangpin_2.png" />
+        </div>
+    </div>
+</body>
+</html>

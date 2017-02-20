@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta content="telephone=no" name="format-detection" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/huodong.css" rel="stylesheet" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <title></title>
+</head>
+<body>
+    <script src="js/bootstrap.js"></script>
+    <style>
+        body {
+            background: #7ED3AC;
+        }
+    </style>
+    <div class="juzhong">
+        <div class="container-fluid" id="xues_zc_top">
+            <img src="images/xuesheng_zc_2_top.png" class="img-responsive" />
+        </div>
+        <div class="container-fluid p0 pos_r xies_2_index">
+            <img src="images/xuesheng_zc_2_index.png" class="img-responsive" />
+            <p class="xues_zc_1 xues_2_ge1">￥100.00元</p>
+            <p class="xues_zc_1 xues_2_ge2">￥55.05元</p>
+        </div>
+        <div class="container-fluid p0 pos_r">
+            <img src="images/xuesheng_zc_2_bton.png" class="img-responsive" />
+            <p style="top:0px;" class="xues_zc_1 text-center"><a class="wens_zc_fenx" href="#" data-toggle="modal" data-target="#myModal1" style="outline:none">分享给好友领取</a></p>
+        </div>
+    </div>
+
+    <div id="myModal1" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog1  hongb_lingqu" style="width:80% !important;margin:40px auto;">
+            <div class="modal-content">
+                <div class="modal-body  huod_tc">
+                    <img src="images/huod_fenx_nr.png" />
+                    <a class="glyphicon glyphicon-remove" aria-hidden="true" id="quxiao"></a>
+                </div>
+                <div class="modal-footer huod_tc_btn" style="text-align:center">
+                    <button data-dismiss="modal"></button>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+
+
+    <script>
+        document.onreadystatechange = subSomething;//当页面加载状态改变的时候执行这个方法.
+        function subSomething() {
+            $(".loding_wai").height($(window).height());
+            if (document.readyState == "complete") //当页面加载状态
+            {
+                var zong_hei = parseInt($(window).height());
+                var div_hei = parseInt($(".juzhong").height());
+                var shengyu = (zong_hei - div_hei) / 2;
+                $("#xues_zc_top").css({ "background": "#E1FAFF", "padding": "0px", "padding-top": shengyu + "px" })
+            }
+        }
+        $("#quxiao").click(function () {
+            $('#myModal1').modal('hide')
+        })
+    </script>
+</body>
+</html>

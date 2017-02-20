@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta content="telephone=no" name="format-detection" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/shouji-css.css" rel="stylesheet" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <title></title>
+</head>
+<body style="background:#fff;">
+    <script src="js/bootstrap.js"></script>
+    <div class="container-fluid p0 xinr_hb_top">
+        <img src="images/8_huod_lingqu.png" />
+    </div>
+    <div class="container-fluid  p0 hb_lingqu">
+        <p class="lingqu_1">您领过818红包啦！</p>
+        <p class="lingqu_2" style="color:#000;font-size:14px;"><b style="color:#576DDF;">1.00</b>元 已经存入零钱包</p>
+        <p class="lingqu_4" style="color:#FF0737;font-size:16px;margin-top:20px;margin-bottom:0px;">分享红包已累计:</p>
+         <p class="lingqu_3"><span>0.01</span>元</p>
+        <p class="lingqu_5">还想要?告诉你个秘密...</p>
+        <p class="lingqu_6" style="color:#FF0737">分享给好友自己还可以获得哦～</p>
+        <a href="#" data-toggle="modal" data-target="#myModal1" style="outline:none;background:#FF0737">
+            分享给好友领
+        </a>
+    </div>
+
+    <div id="myModal1" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog1  hongb_lingqu" style="width:80% !important;margin:0px auto;">
+            <div class="modal-content">
+                <div class="modal-body  huod_tc">
+                    <img src="images/huod_fenx_nr.png" />
+                    <a class="glyphicon glyphicon-remove" aria-hidden="true" id="quxiao"></a>
+                </div>
+                <div class="modal-footer huod_tc_btn" style="text-align:center">
+                    <button data-dismiss="modal"></button>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <script>
+        $("#quxiao").click(function () {
+            $('#myModal1').modal('hide')
+        })
+    </script>
+</body>
+</html>

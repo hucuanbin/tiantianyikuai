@@ -1,0 +1,149 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta content="telephone=no" name="format-detection" />
+    <link href="css/h5.css" rel="stylesheet" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <title></title>
+</head>
+<body>
+    <div style="height:100%;position:relative;overflow:hidden" id="mo_big">
+        <div id="bofq">
+            <div class="miu_xiu miux_mor" style="display:inline-block;height:30px;width:30px;">
+                <img src="images/music_off.png" />
+                <audio src="css/you.mp3" autoplay loop id="music1" preload="auto"></audio>
+            </div>
+        </div>
+        <div style="width:100%;overflow:auto;overflow:hidden;" id="qi_fei">
+            <section class="section_wai" style="background:red;" >
+                <div class="shiti_gao">
+                    <div class="tu_zhu">
+                        <img src="images/h5_tub.png" class="tu_b" />
+                    </div>
+                </div>
+            </section>
+            <section class="section_wai" style="background:#000;">
+                <div class="shiti_gao">
+                    <div class="tu_zhu">
+                        <img src="images/h5_tub.png" class="tu_b" />
+                    </div>
+
+                    <p style="color:#fff">你好</p>
+                </div>
+            </section>
+            <section class="section_wai">
+                <div class="shiti_gao">
+                    <div class="tu_zhu">
+                        <img src="images/h5_tub.png" class="tu_b" />
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <script type="text/javascript">
+    document.body.addEventListener('touchmove', function (e) {
+        e.stopPropagation();
+        e.preventDefault();
+    });
+    </script>
+    <script>
+        $(document).ready(function () {
+            juz();
+            $("section:eq(1)").addClass("show");
+            setTimeout(function () {
+                $("section:eq(1)").find(".tu_b").addClass("tu_b_donghua");
+            }, 1000);
+            function juz() {
+                var zong_hei = parseInt($(window).height());
+                var b = (zong_hei - 480) / 2;
+                $(".shiti_gao").css("margin", b + "px 0px");
+            }
+        })
+        $("#bofq").click(function () {
+            var audio = document.getElementById('music1');
+            if (audio !== null) {
+                //检测播放是否已暂停.audio.paused 在播放器播放时返回false.
+                if (audio.paused) {
+                    audio.play();//audio.play();// 这个就是播放
+                    $(this).children("div").addClass("miu_xiu");
+                } else {
+                    audio.pause();// 这个就是暂停
+                    $(this).children("div").removeClass("miu_xiu");
+                }
+            }
+        })
+    </script>
+
+
+    <script>
+        var win_hei = $(window).height();
+        var startX,//触摸时的坐标
+        startY,
+        x, //滑动的距离
+        y,
+        juli,
+        fangshi,
+        aboveY = -1 * win_hei;
+        next_geshu = 1;
+        //设一个全局变量记录上一次内部块滑动的位置
+        $("#qi_fei").css("margin-top", -1 * win_hei + "px");
+
+
+        var inner = document.getElementById("qi_fei");
+        function touchSatrt(e) {//触摸
+            var touch = e.touches[0];
+            y = 0;
+            startY = touch.pageY; //刚触摸时的坐标
+        }
+
+        function touchMove(e) {//滑动
+            var touch = e.touches[0];
+            var rx, ty, tz, du_bili, jiao_bili;
+            y = touch.pageY - startY;//滑动的距离
+            inner.style.marginTop = aboveY + y + "px"; //这一句中的
+        }
+
+        function touchEnd(e) {//手指离开屏幕
+            console.log(y);
+            if (y > 0) {
+                juli = 0;
+              
+                $('#qi_fei').animate({
+                    marginTop: juli + "px"
+                },                    300,                    function () {
+                        $(this).css({ marginTop: -1 * win_hei + "px" }).find("section:last").prependTo($("#qi_fei"));                        xiaoguo();                    });            }
+            else if (y < 0) {
+                juli = -2 * win_hei;
+              
+                $('#qi_fei').animate({
+                    marginTop: juli + "px"
+                },                   300,                   function () {
+                       $(this).css({ marginTop: -1 * win_hei + "px" }).find("section:first").appendTo($("#qi_fei"));
+                       xiaoguo();
+                   });
+            }
+            else {
+                return;
+            }
+            aboveY = -1 * win_hei;//touch结束后记录内部滑块滑动的位置 在全局变量中体现 一定要用parseInt()将其转化为整数字;
+
+            function xiaoguo() {
+                $("section:eq(1)").find(".tu_b").attr("class", "tu_b");
+                $("#qi_fei").children("section").attr("class", "section_wai");                $("#qi_fei").children("section:eq(1)").addClass("show");                setTimeout(function () {
+                    $("section:eq(1)").find(".tu_b").addClass("tu_b_donghua");
+                }, 1000);
+            }
+        }//
+        document.getElementById("mo_big").addEventListener('touchstart', touchSatrt, false);
+        document.getElementById("mo_big").addEventListener('touchmove', touchMove, false);
+        document.getElementById("mo_big").addEventListener('touchend', touchEnd, false);
+    </script>
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta content="telephone=no" name="format-detection" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/wangpan_css.css" rel="stylesheet" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <title></title>
+</head>
+<body>
+    <div class="container-fluid p0 wangp_jh" style="">
+        <div class="wangp_jh_tub"></div>
+        <div class="wangp_jh_wenzi"></div>
+          <div class="wangp_jg_dl">
+              <a href="wangp_index.html">立即激活</a>
+          </div>
+    </div>
+    <script>
+        $("body").height($(window).height());
+    </script>
+</body>
+</html>

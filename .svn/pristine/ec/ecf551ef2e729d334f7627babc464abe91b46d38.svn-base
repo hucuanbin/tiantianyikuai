@@ -1,0 +1,81 @@
+﻿
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+          "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-type" content="text/html; charset=UTF-8" />
+    <title>Feature Carousel Demonstration Test</title>
+    <link rel="stylesheet" href="css/featureCarousel.css" charset="utf-8" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/pc_css.css" />
+     <script src="js/jquery-1.7.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/jquery.featureCarousel.js" type="text/javascript" charset="utf-8"></script>
+    <!--
+        <script type="text/javascript">
+        $(document).ready(function () {
+         var carousel = $("#carousel").featureCarousel({
+                smallFeatureWidth: 50,
+                smallFeatureHeight:50,
+                largeFeatureWidth: 110,
+                largeFeatureHeight: 110,
+                carouselSpeed: 800,
+                autoPlay: 1000,
+                topPadding: 50,
+                sidePadding: 350,
+            });
+            $("#but_prev").click(function () {
+                carousel.prev();
+            });
+            $("#but_pause").click(function () {
+                carousel.pause();
+            });
+            $("#but_start").click(function () {
+                carousel.start();
+            });
+            $("#but_next").click(function () {
+                carousel.next();
+            });
+        });
+    </script>
+        -->
+</head>
+<body>
+    <!--
+        <a id="but_prev" href="#">上一页</a>   | <a id="but_next" href="#">下一页</a>
+    <div class="carousel-container">
+        <div id="carousel">
+            <div class="carousel-feature">
+                <a href="#"><img class="carousel-image" alt="Image Caption" src="images/pc_1.png"></a>
+            </div>
+            <div class="carousel-feature">
+                <a href="#"><img class="carousel-image" alt="Image Caption" src="images/pc_2.png"></a>
+            </div>
+            <div class="carousel-feature">
+                <a href="#"><img class="carousel-image" alt="Image Caption" src="images/pc_3.png"></a>
+            </div>
+            <div class="carousel-feature">
+                <a href="#"><img class="carousel-image" alt="Image Caption" src="images/pc_4.png"></a>
+            </div>
+            <div class="carousel-feature">
+                <a href="#"><img class="carousel-image" alt="Image Caption" src="images/pc_5.png"></a>
+            </div>
+        </div>
+    </div>
+        -->
+    <div class="container-fluid pc_top">
+        <div class="pc_index_top_div container">
+            <div class="col-xs-6 col-sm-6 col-lg-6">
+                <img src="images/pc_tub.png" />
+            </div>
+            <div class="col-xs-6 col-sm-6 col-lg-6">
+                <nav class="text-right">
+                    <a class="pc_index_nav" href="#">首页</a>
+                    <a class="pc_index_nav" href="#">新书帮助</a>
+                    <a class="pc_index_nav" href="#">关于我们</a>
+                </nav>
+            </div>
+        </div>
+     
+    </div>
+</body>
+</html>

@@ -1,0 +1,103 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta content="telephone=no" name="format-detection" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/shouji-css.css" rel="stylesheet" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <title></title>
+</head>
+<body>
+    <style>
+        body {
+            padding-bottom: 52px !important;
+        }
+    </style>
+
+    <div class="container-fluid p0 index_top">
+        <nav>
+            <a href="index.html">
+                <p><em class="index_top_b1"></em></p>
+                首页
+            </a>
+            <a class="mo_xz" href="quanbu_sq.html">
+                <p><em class="index_top_b21"></em></p>
+                全部奖品
+            </a>
+            <a href="shandan_index.html">
+                <p><em class="index_top_b3"></em></p>
+                晒单
+            </a>
+            <a href="gerenzhongxin.html">
+                <p><em class="index_top_b4"></em></p>
+                个人中心
+            </a>
+        </nav>
+    </div>
+    <div class="container-fluid p0">
+        <div class="shaid_xq">
+            <a href="shandan_xq.html">
+                <div>
+                    <label>吃货到了三只松鼠</label>
+                    <p><b class="color_0079FE" href="yonghu.html">送给老婆</b><span class="right">2015-07-23 18:11:53</span></p>
+                    <div>
+                        <div class="col-xs-3">
+                            <img src="images/hongbao_top1.png" />
+                        </div>
+                        <div class="col-xs-9">
+                            上午上午上午上午上午,上午上午上午上午,上午
+                            上午上午上午,上午上午上午,上午上午上午,上午
+                            上午,上午,上午上午上午上午上午上午,上午上午
+                            上午上午上午.
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="shandan_xq.html">
+                <div>
+                    <label>吃货到了三只松鼠</label>
+                    <p>晒单时间：7-22 10:32</p>
+                    <div>
+                        <div class="col-xs-3">
+                            <img src="images/hongbao_top1.png" />
+                        </div>
+                        <div class="col-xs-9">
+                            上午上午上午上午上午,上午上午上午上午,上午
+                            上午上午上午,上午上午上午,上午上午上午,上午
+                            上午,上午,上午上午上午上午上午上午,上午上午
+                            上午上午上午.
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="shandan_xq.html">
+                <div>
+                    <label>吃货到了三只松鼠</label>
+                    <p>晒单时间：7-22 10:32</p>
+                    <div>
+                        <div class="col-xs-3">
+                            <img src="images/hongbao_top1.png" />
+                        </div>
+                        <div class="col-xs-9">
+                            上午上午上午上午上午,上午上午上午上午,上午
+                            上午上午上午,上午上午上午,上午上午上午,上午
+                            上午,上午,上午上午上午上午上午上午,上午上午
+                            上午上午上午.
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+    </div>
+    <a href="qingdan.html">
+        <div class="index_gwx_wq">
+            <div class="index_couwuche">
+                <b class="index_gwx_nei">1</b>
+            </div>
+        </div>
+    </a>
+</body>
+</html>

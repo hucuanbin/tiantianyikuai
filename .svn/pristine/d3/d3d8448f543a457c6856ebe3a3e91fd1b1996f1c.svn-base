@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta content="telephone=no" name="format-detection" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/shouji-css.css" rel="stylesheet" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <title></title>
+</head>
+<body>
+    <div class="xinr_hb_top container-fluid p0">
+        <img src="images/khy_1.jpg" />
+        <button class="kuy_btn">立即参与</button>
+    </div>
+    <div class="xinr_hb_top container-fluid p0">
+        <img src="images/khy_2.jpg" />
+        <div class="hye_gz ol_px">
+            <ol>
+                <li>
+                    凡参与夺宝，消费满指定金额即可获得云豆，具体如下:
+                    <table class="khy_tbale">
+                        <tr>
+                            <td>单次实际消费</td>
+                            <td>赠送云豆</td>
+                        </tr>
+                        <tr>
+                            <td>单次实际消费满20云豆</td>
+                            <td>2云豆</td>
+                        </tr>
+                        <tr>
+                            <td>单次实际消费满100云豆</td>
+                            <td>12云豆</td>
+                        </tr>
+                        <tr>
+                            <td>单次实际消费满500云豆</td>
+                            <td>68云豆</td>
+                        </tr>
+                    </table>
+                </li>
+                <li>单次实际消费，是指一个订单里（可包含若干个奖品的支付）的实际总支付数;</li>
+                <li>购买成功后，相应赠送的云豆会直接存入到会员账户中，不可转赠、提现;</li>
+                <li>赠送的云豆，可直接用于参与所有奖品的夺宝;</li>
+                <li>本活动结束即停止赠送云豆，敬请谅解;</li>
+                <li>本活动最终解释权归天天一块所有.</li>
+            </ol>
+        </div>
+        <p class="jx_khy">天天一块,一个充满惊喜的网站</p>
+    </div>
+    <script>
+        $(".kuy_btn").click(function () {
+            location.href="index.html"
+        });
+    </script>
+</body>
+</html>

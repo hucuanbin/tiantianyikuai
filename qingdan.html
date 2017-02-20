@@ -1,0 +1,126 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta content="telephone=no" name="format-detection" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/shouji-css.css" rel="stylesheet" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <title></title>
+</head>
+<body>
+    <div class="container-fluid qingd_huod">
+        <div>
+            [Enjoy一夏]实际消费满20增2,满100增12,满500增68夺宝币红包
+        </div>
+        <span>活动</span>
+    </div>
+    <!--清单没有物品(开始)-->
+    <div class="qingd_index_no">
+        <p>您的清单里还没有任何奖品,<b class="color_0079FE ">马上去逛逛～</b></p>
+    </div>
+    <!--清单没有物品(结束)-->
+    <!--清单有物品(开始)-->
+    <div class="qingd_index_yes m-20">
+        <div>
+            <div class="col-xs-3">
+                <a href="shangp_xq.html">
+                    <img src="images/shangpin_2.png" />
+                </a>
+            </div>
+            <div class="col-xs-9">
+                <a>iPone6 4.7英寸 64G</a>
+                <p>总需6088人次,剩余<b class="color_0079FE shengyu">2911</b>人次</p>
+                <p>
+                    <span>参与人次</span>
+                    <span class="wenb_sr">
+                        <b data-data="-1" style="border-right:1px #E0E0E0 solid;">-</b>
+                        <input value="1" type="number" />
+                        <b data-data="1">+</b>
+                    </span>
+                    <a class="glyphicon glyphicon-trash right qingd_sc"></a>
+                </p>
+            </div>
+        </div>
+        <div>
+            <div class="col-xs-3">
+                <a href="shangp_xq.html">
+                    <img src="images/shangpin_2.png" />
+                </a>
+            </div>
+            <div class="col-xs-9">
+                <a>iPone6 4.7英寸 64G</a>
+                <p>总需6088人次,剩余<b class="color_0079FE shengyu">2911</b>人次</p>
+                <p>
+                    <span>参与人次</span>
+                    <span class="wenb_sr">
+                        <b data-data="-1" style="border-right:1px #E0E0E0 solid;">-</b>
+                        <input value="1" type="number" />
+                        <b data-data="1">+</b>
+                    </span>
+                    <a class="glyphicon glyphicon-trash right qingd_sc"></a>
+                </p>
+            </div>
+        </div>
+        <div>
+            <div class="col-xs-3">
+                <a href="shangp_xq.html">
+                    <img src="images/shangpin_2.png" />
+                </a>
+            </div>
+            <div class="col-xs-9">
+                <a>iPone6 4.7英寸 64G</a>
+                <p>总需6088人次,剩余<b class="color_0079FE shengyu">2911</b>人次</p>
+                <p>
+                    <span>参与人次</span>
+                    <span class="wenb_sr">
+                        <b data-data="-1" style="border-right:1px #E0E0E0 solid;">-</b>
+                        <input value="1" type="number"/>
+                        <b data-data="1">+</b>
+                    </span>
+                    <a class="glyphicon glyphicon-trash right qingd_sc"></a>
+                </p>
+            </div>
+        </div>
+
+    </div>
+    <div class="hei_di">
+
+    </div>
+    <script>
+        //加减
+        $(".wenb_sr>b").click(function () {
+            var a = parseInt($(this).attr("data-data"));
+            var b = parseInt($(this).parent().children("input").val());
+            var c = parseInt($(this).parent().parent().parent().find(".shengyu").text());
+            var now = b + a;
+            if (now > c) {
+                return;
+            }
+            else if (now < 1) {
+                return;
+            }
+            else {
+                $(this).parent().children("input").val(now);
+            }
+        });
+        //文本框输入
+    </script>
+    <!--清单有物品(结束)-->
+
+    <!--清单没有物品-->
+    <div class="index_bton qingdan_no">
+        <p>
+            <span>共参与0件奖品,总计：<b class="mo_xz">0夺宝币</b></span>
+            <a class="btn_quan">提交</a>
+        </p>
+    </div>
+    <!--清单有物品-->
+    <div class="index_bton qingdan_yes">
+        <p>共参与2件奖品,总计：<b class="mo_xz">2夺宝币</b></p>
+        <p>实际支付满20,可获赠2夺宝币红包!</p>
+        <a class="btn_quan" href="zhifu.html">提交</a>
+    </div>
+</body>
+</html>
