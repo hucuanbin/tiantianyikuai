@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta content="telephone=no" name="format-detection" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/shouji-css.css" rel="stylesheet" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <title></title>
+</head>
+<body>
+    <div class="container-fluid p0 index_top">
+        <nav>
+            <b style="left:75%;"></b>
+            <a href="index.html">首页</a>
+            <a href="quanbu_sq.html">全部奖品</a>
+            <a href="shandan_index.html">晒单</a>
+            <a class="mo_xz" href="gerenzhongxin.html">个人中心</a>
+        </nav>
+    </div>
+    <div class="ger_top">
+        <div class="col-xs-3">
+            <div class="gr_toux">
+                <img src="images/youx.jpg" />
+            </div>
+        </div>
+        <div class="col-xs-7">
+            <p class="gr_name">我是名字</p>
+            <p>余额：10000夺宝币<a class="ge_cz right" href="chongzhi.html">充值</a></p>
+        </div>
+        <div class="col-xs-2">
+            <a class="glyphicon glyphicon-menu-right right" href="gr_zhongx.html"></a>
+        </div>
+    </div>
+    <div class="ge_jx m-20">
+        <a>
+            <div>
+                <p>我的红包<b class="glyphicon glyphicon-menu-right"></b></p>
+            </div>
+        </a>
+        <a href="db_lj.html">
+            <div>
+                <p>夺宝记录<b class="glyphicon glyphicon-menu-right"></b></p>
+            </div>
+        </a>
+        <a href="yonghu.html">
+            <div>
+                <p>中奖记录<b class="glyphicon glyphicon-menu-right"></b></p>
+            </div>
+        </a>
+        <a  href="yonghu.html">
+            <div>
+                <p>我的晒单<b class="glyphicon glyphicon-menu-right"></b></p>
+            </div>
+        </a>
+        <a href="chongzhi.html">
+            <div>
+                <p>充值记录<b class="glyphicon glyphicon-menu-right"></b></p>
+            </div>
+        </a>
+    </div>
+</body>
+</html>

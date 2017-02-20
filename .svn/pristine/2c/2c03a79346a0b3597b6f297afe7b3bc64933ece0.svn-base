@@ -1,0 +1,115 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta content="telephone=no" name="format-detection" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/shouji-css.css" rel="stylesheet" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <title></title>
+</head>
+<body>
+    <style>
+        body{
+            background:#2D4E71;
+        }
+    </style>
+    <div class="container-fluid">
+        <img src="images/nanshen_zhuangq.png" class="img-responsive" />
+    </div>
+
+    <div class="container-fluid zhuanc_div">
+        <div>
+            <div class="p5">
+                <a>
+                    <img src="images/shangpin_1.png" class="img-responsive nc_img" />
+                </a>
+            </div>
+            <div class="zc_spxx text-center">
+                <p class="shengl">我事故农户宝宝房租</p>
+                <a class="btn_quan">立即抢购</a>
+            </div>
+            <div class="zc_div_xf text-center">
+                <p>￥1.00</p>
+                <p style="transform:scaleX(0.5) scaleY(0.5);width:100%;font-size:8px;">总需求:3333</p>
+                <span class="zc_san"></span>
+            </div>
+        </div>
+        <div>
+            <div class="p5">
+                <a>
+                    <img src="images/shangpin_1.png" class="img-responsive nc_img" />
+                </a>
+            </div>
+            <div class="zc_spxx text-center">
+                <p class="shengl">我事故农户宝宝房租</p>
+                <a class="btn_quan">立即抢购</a>
+            </div>
+            <div class="zc_div_xf text-center">
+                <p>￥1.00</p>
+                <p style="transform:scaleX(0.5) scaleY(0.5);width:100%;font-size:8px;">总需求:3333</p>
+                <span class="zc_san"></span>
+            </div>
+        </div>
+        <div>
+            <div class="p5">
+                <a>
+                    <img src="images/shangpin_1.png" class="img-responsive nc_img" />
+                </a>
+            </div>
+            <div class="zc_spxx text-center">
+                <p class="shengl">我事故农户宝宝房租</p>
+                <a class="btn_quan">立即抢购</a>
+            </div>
+            <div class="zc_div_xf text-center">
+                <p>￥1.00</p>
+                <p style="transform:scaleX(0.5) scaleY(0.5);width:100%;font-size:8px;">总需求:3333</p>
+                <span class="zc_san"></span>
+            </div>
+        </div>
+        <div>
+            <div class="p5">
+                <a>
+                    <img src="images/shangpin_1.png" class="img-responsive nc_img" />
+                </a>
+            </div>
+            <div class="zc_spxx text-center">
+                <p class="shengl">我事故农户宝宝房户宝宝房租</p>
+                <a class="btn_quan">立即抢购</a>
+            </div>
+            <div class="zc_div_xf text-center">
+                <p>￥1.00</p>
+                <p style="transform:scaleX(0.5) scaleY(0.5);width:100%;font-size:8px;">总需求:3333</p>
+                <span class="zc_san"></span>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="container-fluid zc_huod_hs">
+        <p class="m0">活动时间：</p>
+        <p>
+            2015年9月9日-9月18日
+        </p>
+        <p class="m0"> 活动说明：</p>
+        <p class="m0">
+           
+       
+            活动期间，凡在男神专区参与商品夺宝，累积消费满99元的会员，即可获赠吉列剃须刀1份，每个会员ID号仅限1份；
+       
+        </p>
+        <p>            礼品将在活动结束后1-3个工作日寄出，请满足条件的会员完善收货地址，以确保礼品送达；活动结束后7日内未完善地址的会员，视为自主放弃礼品。
+</p>
+        <p style="text-align:center;"> 本活动最终解释权归天天一块所有</p>
+      
+    </div>
+    <script>
+        var a = parseFloat($(".zc_div_xf").width()) / 2;
+        $(".zc_san").css({
+            "border-left": a+"px solid transparent",
+            "border-right": a+"px solid transparent"
+        })
+    </script>
+</body>
+</html>

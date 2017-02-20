@@ -1,0 +1,153 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta content="telephone=no" name="format-detection" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/shouji-css.css" rel="stylesheet" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <title></title>
+</head>
+<body>
+    <div class="xiuga_top ">
+        <a class="left glyphicon glyphicon-chevron-left" href="index.html"></a>
+        中奖确认
+    </div>
+    <!--data-guoc 为过程的序列号 从0开始-->
+    <div class="container-fluid huoj_xx_top" data-guoc="2">
+        <div class="huoj_xx_top_1">
+            奖品状态
+        </div>
+        <div>
+            <div class="huojiang_zhuangt">
+                <b class="b1">
+
+                </b>
+            </div>
+            <div class="huoj_xx_top_2">
+                <div>获得奖品<span class="right">2015-09-24 13:33</span></div>
+                <div>确认收货地址<a class="right btn_quan" data-toggle="modal" data-target="#myModal1" style="outline:none" href="#">新增地址</a></div>
+                <div>奖品派发</div>
+                <div>确认收货</div>
+                <div>已签收<a class="right btn_quan">晒单分享</a></div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid huoj_xx_top m-10">
+        <div>
+            <div><b class="glyphicon glyphicon-user"></b><span>我是某某</span></div>
+            <div><b class="glyphicon glyphicon-phone"></b><span>157****3615</span></div>
+            <div><b class="glyphicon glyphicon-map-marker"></b><span>巴拉巴拉巴拉巴拉</span></div>
+        </div>
+    </div>
+    <div class="container-fluid huoj_xx_top m-10">
+        <div class="huoj_xx_top_1">
+            奖品信息
+        </div>
+            <div class="quanbu_sq pos_r">
+                <div class="bor-none"> 
+                    <div class="col-xs-3">
+                        <img src="images/cpt.png" />
+                    </div>
+                    <div class="col-xs-9 jiex_nr" style="padding-left:5px ;">
+                        <p class="quanbu_biaoti">
+                            (第9638期)iPhone6 Plus 5.5英寸.5英寸
+                        </p>
+                        <ul>
+                            <li>
+                                <div>
+                                    总需：
+                                </div>
+                                <div>
+                                    3588人次;
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    幸运号码：
+                                </div>
+                                <div>
+                                    <b class="mo_xz">10000161</b>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    本期参与：
+                                </div>
+                                <div>
+                                    <b class="mo_xz">5</b>人次
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    揭晓时间：
+                                </div>
+                                <div>
+                                    2015-07-24 13:33:00
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <div id="myModal1" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog1  anq-sz-jymm" style="width:90% !important;margin:10px auto;">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title">收货地址</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid xz_dz_tj">
+                        <div>
+                            <input placeholder="收货人" />
+                        </div>
+                        <div>
+                            <input placeholder="手机号码" />
+                        </div>
+                        <div>
+                            省份
+                            <select>
+                                <option>请选择</option>
+                            </select>
+                        </div>
+                        <div>
+                            城市
+                            <select>
+                                <option>请选择</option>
+                            </select>
+                        </div>
+                        <div>
+                            地区
+                            <select>
+                                <option>请选择</option>
+                            </select>
+                        </div>
+                        <div class="bor-none">
+                            <textarea placeholder="详细地址"></textarea>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="modal-footer dz-xiugai-tc-1" style="text-align:center">
+                    <ul>
+                        <li><a data-dismiss="modal">取消</a></li>
+                        <li><a data-dismiss="modal">确认</a></li>
+                    </ul>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+    <script src="js/bootstrap.js"></script>
+    <script>
+        $(function () {
+            var a = parseInt($(".huoj_xx_top").attr("data-guoc"));
+            $(".huojiang_zhuangt>b").attr("class", "b" + (a + 1));
+            $(".huoj_xx_top_2 > div:eq(" + a + ")").addClass("huojiang_guo_zi");
+            $(".huoj_xx_top_2 > div:eq(" + a + ")").prevAll().addClass("huojiang_guo_zi_qian");
+        })
+    </script>
+</body>
+</html>

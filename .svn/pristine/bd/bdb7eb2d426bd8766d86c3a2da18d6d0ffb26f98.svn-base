@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta content="telephone=no" name="format-detection" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/shouji-css.css" rel="stylesheet" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <title></title>
+</head>
+<body>
+    <div class="container-fluid hd_hb">
+        <div class="hongb hongb_tu_hb">
+            <img src="images/8_hongb_hb.png" />
+            <p class="hb_wen1 hb_wen">恭喜您,获得了</p>
+            <p class="hb_wen2 hb_too_geshu"><b>8</b>个红包</p>
+            <p class="hb_wen3 hb_wen">红包活动专区内</p>
+            <p class="hb_wen4 hb_wen">每消费满2元,即获得1个随机红包</p>
+            <a style="top:74%;">拆红包</a>
+        </div>
+    </div>
+    <script>
+        $(document).ready(function () {
+            $(".hongb>img").load(function () {
+                var zong = $(window).height();
+                var b = $(".hongb_tu_hb").height();
+                if (b > zong)
+                    zong = b;
+                $(".hd_hb").height(zong);
+                var tu = $(".hongb").height();
+                //          alert(zong + ":" + tu);
+                $(".hongb").css("margin-top", (zong - tu) / 2 + "px");
+            })
+        });
+    </script>
+</body>
+</html>

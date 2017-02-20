@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta content="telephone=no" name="format-detection" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/shouji-css.css" rel="stylesheet" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <title></title>
+</head>
+<body>
+    <div class="container-fluid p0 img_zhu yundong">
+        <img src="images/yundou_1.png"/>
+        <p>恭喜获得5个云豆<br />获得5次夺宝机会！</p>
+        <a href="index.html">立即夺宝 <span class="glyphicon glyphicon-chevron-right"></span></a>
+    </div>
+    <script>
+        $("body").css("background", "#FEEEC7");
+    </script>
+</body>
+</html>

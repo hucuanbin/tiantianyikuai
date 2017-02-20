@@ -1,0 +1,94 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta content="telephone=no" name="format-detection" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/shouji-css.css" rel="stylesheet" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <title></title>
+</head>
+<body>
+    <div class="container-fluid  wq_jx">
+        <div class="wq_jx_top">
+            第809期 即将揭晓,正在倒计时....
+        </div>
+        <div class="wq_jx_index sq_huoj">
+            <div>
+                第808期 （揭晓时间：2015-07-23 20:43:00）
+            </div>
+            <div>
+                <div class="col-xs-3">
+                    <a href="yonghu.html">
+                        <img src="images/youx.jpg" />
+                    </a>
+                </div>
+                <div class="col-xs-9">
+                    <p>获奖者:<a class="color_0079FE" href="yonghu.html">顺林</a></p>
+                    <p class="color_558F04">(我是地址)</p>
+                    <p>用户ID:53270017(唯一不变标识)</p>
+                    <p class="xq_jx_time">幸运号码:<b class="mo_xz">10001387</b></p>
+                    <p>本期参与:<b class="mo_xz">100</b>人次</p>
+                </div>
+            </div>
+        </div>
+        <div class="wq_jx_index sq_huoj">
+            <div>
+                第808期 （揭晓时间：2015-07-23 20:43:00）
+            </div>
+            <div>
+                <div class="col-xs-3">
+                    <a href="yonghu.html">
+                        <img src="images/youx.jpg" />
+                    </a>
+                </div>
+                <div class="col-xs-9">
+                    <p>获奖者:<a class="color_0079FE" href="yonghu.html">顺林</a></p>
+                    <p class="color_558F04">(我是地址)</p>
+                    <p>用户ID:53270017(唯一不变标识)</p>
+                    <p class="xq_jx_time">幸运号码:<b class="mo_xz">10001387</b></p>
+                    <p>本期参与:<b class="mo_xz">100</b>人次</p>
+                </div>
+            </div>
+        </div>
+        <div class="wq_jx_index sq_huoj">
+            <div>
+                第808期 （揭晓时间：2015-07-23 20:43:00）
+            </div>
+            <div>
+                <div class="col-xs-3">
+                    <a href="yonghu.html">
+                        <img src="images/youx.jpg" />
+                    </a>
+                </div>
+                <div class="col-xs-9">
+                    <p>获奖者:<a class="color_0079FE" href="yonghu.html">顺林</a></p>
+                    <p class="color_558F04">(我是地址)</p>
+                    <p>用户ID:53270017(唯一不变标识)</p>
+                    <p class="xq_jx_time">幸运号码:<b class="mo_xz">10001387</b></p>
+                    <p>本期参与:<b class="mo_xz">100</b>人次</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="wq_jx_bton m-20">
+            <p>更多往期被藏起来啦！</p>
+            <p>请输入您要查询的期数<input type="text" value="8104" id="qishu" data-data=""/> <button class="btn_quan">查看</button></p>
+        </div>
+    </div>
+    <script>
+        $("#qishu").focus(function () {
+            $(this).attr("data-data", $(this).val());
+            $(this).val("");
+        });
+        $("#qishu").blur(function () {
+            if ($(this).val() == "") {
+                $(this).val($(this).attr("data-data"));
+            }
+            else
+                return;
+        });
+    </script>
+</body>
+</html>

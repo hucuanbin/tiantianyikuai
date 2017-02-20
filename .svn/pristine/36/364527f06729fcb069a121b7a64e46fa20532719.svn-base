@@ -1,0 +1,27 @@
+﻿
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <title>大转盘活动</title>
+
+    <link href="css/zhuanp_css.css" rel="stylesheet" />
+    <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="js/zhuanp_js.js"></script>
+    <script type="text/javascript" src="js/zhuanpan_js2.js"></script>
+
+</head>
+<body style="background:#e62d2d;overflow-x:hidden;">
+    <img src="images/cj_shand.png" id="shan-img" style="display:none;" />
+    <img src="images/cj_kul.png" id="sorry-img" style="display:none;" />
+    <div class="banner" style="margin-top:20px;">
+        <div class="turnplate" style="background-image:url(images/cj_bg.png);background-size:100% 100%;">
+            <canvas class="item" id="wheelcanvas" width="422" height="422"></canvas>
+            <img class="pointer" src="images/cj_kaishi.png" />
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,42 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <canvas id="myCanvas" style="width:400px; height:300px; background-color:pink;">你的浏览器可能不支持canvas</canvas>
+    <script>
+
+    window.onload = function()
+    {
+        var myCanvas = document.getElementById("myCanvas");
+        var context = myCanvas.getContext("2d");
+        context.lineWidth = 1;
+        context.strokeStyle = "red";
+        var x=0;
+        var y=0;
+        var x2=50;
+        var y2=50;
+        function lineTo(x,y,x2,y2){
+            context.beginPath();
+            context.moveTo(x,y);
+            context.lineTo(x2,y2);
+            context.stroke();
+        }
+        lineTo(context);
+        setInterval(function(){
+            lineTo(context,x, y,x2,y2);
+            x=x2;
+            y=y2;
+            y2=this.onOff ? 100 : 0;
+            x2+=50;
+            this.onOff=!this.onOff;
+        },500);
+
+
+    }
+    </script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta content="telephone=no" name="format-detection" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/huodong.css" rel="stylesheet" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <title></title>
+</head>
+<body>
+    <style>
+        body{
+            background:#7ED3AC
+        }
+    </style>
+    <div class="juzhong">
+        <div class="container-fluid" id="xues_zc_top">
+            <img src="images/xuesheng_zc_1_top.png" class="img-responsive" />
+        </div>
+        <div class="container-fluid p0 pos_r">
+            <img src="images/xuesheng_zc_1_index.png" class="img-responsive" />
+            <p class="text-center xues_zc_1"><b class="xues_zc_1_pb">1.50</b>元</p>
+        </div>
+        <div class="container-fluid p0 xue_zc_botn pos_r">
+            <img src="images/xuesheng_zc_1_bton.png" class="img-responsive" />
+            <p class="text-center xues_zc_1"><a class="xus_zc_btn" href="zhuanqu_xues.html">获得更多红包</a></p>
+                                                                   <!--  去活动页面 -->
+        </div>
+    </div>
+    
+    <script>
+        document.onreadystatechange = subSomething;//当页面加载状态改变的时候执行这个方法.
+        function subSomething() {
+            $(".loding_wai").height($(window).height());
+            if (document.readyState == "complete") //当页面加载状态
+            {
+                var zong_hei = parseInt($(window).height());
+                var div_hei = parseInt($(".juzhong").height());
+                var shengyu = (zong_hei - div_hei) / 2;
+                $("#xues_zc_top").css({ "background": "#E1FAFF", "padding": "0px", "padding-top": shengyu + "px" })
+            }
+        }
+    </script>
+</body>
+</html>

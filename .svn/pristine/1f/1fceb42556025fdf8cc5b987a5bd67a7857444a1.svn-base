@@ -1,0 +1,90 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta content="telephone=no" name="format-detection" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/wangpan_css.css" rel="stylesheet" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <title></title>
+</head>
+<body>
+    <div class="wangp_lieb" data-data="0">
+        <div class="wp_index_rigt">
+            <div class="wp_index_rigt_top">
+                <span class="glyphicon glyphicon-align-justify top_tb_1"></span>
+                <a class="top_logo">
+                    <img src="images/logo.png" />
+                </a>
+                <div class="top_shangc">
+                    <form>
+                        <input type="file" />
+                        <span>
+                            <i></i>上传
+                        </span>
+                    </form>
+                </div>
+            </div>
+            <div class="wp_index wp_xq">
+                <div class="wp_xq_tub">
+                    <i class="wp_xq_rar"></i>
+                </div>
+                <div class="wp_xq_name">
+                    chrome.exe
+                </div>
+                <div class="text-center">
+                    <button class="wp_xq_btn">打开(2.5G)</button>
+                </div>
+            </div>
+        </div>
+        <div class="wp_index_left">
+            <div class="wp_index_left_top">
+                <img src="images/youx.jpg" />
+                <div>
+                    <p class="name">儒雅的人头</p>
+                    <p class="neic">3.01G/5G</p>
+                </div>
+            </div>
+            <div class="wp_index_left_nr">
+                <ul>
+                    <li>
+                        <a href="wangp_index.html">
+                            <i class="iall"></i>
+                            全部文件
+                        </a>
+                    </li>
+                    <li>
+                        <a href="wangp_jihuo.html">
+                            <i class="iall"></i>
+                            退出
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script>
+    $("body").height($(window).height());
+
+    $(".top_tb_1").click(function () {
+        var a = $(".wp_index_left").css("left");
+        if (a != "0px") {
+            $(".wangp_lieb").addClass("shou");
+        }
+    });
+    $(".wp_index_rigt").click(function () {
+
+        var a = $(".wp_index_left").css("left");
+        if (a == "0px") {
+            $(".wangp_lieb").attr("class", "wangp_lieb");
+        }
+
+    })
+    </script>
+
+
+
+
+</body>
+</html>

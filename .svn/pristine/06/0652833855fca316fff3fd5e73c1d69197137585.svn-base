@@ -1,0 +1,141 @@
+﻿body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input,p, textarea, th, td { margin:0; padding:0; } 
+body, button, input, select, textarea { font:12px/1.5tahoma, arial, \5b8b\4f53; } 
+h1, h2, h3, h4, h5, h6{ font-size:100%; } 
+address, cite, dfn, em, var { font-style:normal; } 
+code, kbd, pre, samp { font-family:couriernew, courier, monospace; } 
+small{ font-size:12px; } 
+ul, ol { list-style:none; } 
+a { text-decoration:none;} 
+a:hover { text-decoration:underline; } 
+sup { vertical-align:text-top; } 
+sub{ vertical-align:text-bottom; } 
+legend { color:#000; } 
+fieldset, img { border:0; } 
+button, input, select, textarea { font-size:100%; } 
+table { border-collapse:collapse; border-spacing:0; } 
+*{
+    font-family:"方正正黑"
+}
+.p0{
+    padding:0px;
+}
+.xues_zc_1{
+    position:absolute;
+    top:9.5%;
+    left:0%;
+    width:100%;
+    color:#E72929;
+    padding-left:2%;
+    font-size:4vw;
+}
+.xues_zc_1_pb{
+    font-size:8vw;
+    color:#E72929;
+    margin-right:5px;
+}
+.quan_bton{
+    display:inline-block;
+
+}
+.pos_r{
+    position:relative;
+}
+.xue_zc_botn .xues_zc_1{
+    top:20%;
+}
+.xus_zc_btn{
+     display:inline-block;
+     color:#CB1A23;
+     font-size:6vw;
+     background:#FFF07F;
+     border:2px #F3B975 solid;
+     padding:3px;
+     width:60%;
+}
+.xies_2_index .xues_zc_1{
+    font-size:6.5vw;
+    padding-left:12%;
+    font-weight:bold;
+    text-align:left;
+    padding-left:38%;
+}
+.xues_2_ge1{
+    top:25%;
+}
+
+.xues_2_ge2{
+    top:72%;
+}
+.wens_zc_fenx{
+    display:inline-block;
+    background:#E9A226;
+    border-radius:5px;
+    text-align:center;
+    color:#fff;
+    font-weight:bold;
+    font-size:6.5vw;
+    padding:5px;
+    width:80%;
+    box-shadow:0px 5px 0px #C68006;
+}
+.xues_zc_hb .xues_zc_1{
+    font-size: 11vw;
+  font-weight: bold;
+  transform: skewX(165deg);
+  top: 0%;
+  padding-left:0px;
+}
+.xue_jv_2{
+    height:100%;position:absolute;top:0px;padding-left:11%
+}
+
+
+
+
+/*分享弹窗CSS     （开始）*/
+.huod_tc > a {
+    font-size: 6vw;
+    color: #fff;
+    position: absolute;
+    top: 10px;
+    right: 5px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+.huod_tc {
+    position: relative;
+    padding: 0px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+    .huod_tc > img {
+        width: 100%;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+
+.huod_tc_btn {
+    text-align: center;
+    background: #191919;
+    border: none;
+}
+
+    .huod_tc_btn > button {
+        width: 40%;
+        height: 40px;
+        background: url(../images/huod_fenx_btn.png) no-repeat;
+        background-size: 100% 100%;
+        border: none;
+        outline: none;
+    }
+      .wens_zc_fenx:link{
+        text-decoration:none;
+        color:#fff;
+    }
+      .xus_zc_btn:link,.xus_zc_btn:hover{
+           text-decoration:none;
+        color:#CB1A23
+      }
+      
+/*分享弹窗CSS     （结束）*/

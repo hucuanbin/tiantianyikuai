@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta content="telephone=no" name="format-detection" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/shouji-css.css" rel="stylesheet" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <title></title>
+</head>
+<body style="background:#fff;">
+    <script src="js/bootstrap.js"></script>
+    <div class="container-fluid p0 xinr_hb_top">
+        <img  src="images/huod_lingqu.png"/>
+    </div>
+    <div class="container-fluid  p0 hb_lingqu">
+        <p class="lingqu_1">天天一块 的赠礼</p>
+        <p class="lingqu_2">恭喜发财, 大吉大利</p>
+        <p class="lingqu_3"><span>0.01</span>元</p>
+        <p class="lingqu_4">已存入零钱,可直接提现</p>
+        <p class="lingqu_5">还想要,告诉你个秘密</p>
+        <p class="lingqu_6">分享给朋友自己也可以再领哦～</p>
+        <a href="#" data-toggle="modal" data-target="#myModal1" style="outline:none">
+            分享给好友领
+        </a>
+    </div>
+
+    <div id="myModal1" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog1  hongb_lingqu" style="width:80% !important;" >
+            <div class="modal-content">
+                <div class="modal-body  huod_tc">
+                    <img src="images/huod_fenx_nr.png" />
+                    <a class="glyphicon glyphicon-remove" aria-hidden="true" id="quxiao"></a>
+                </div>
+                <div class="modal-footer huod_tc_btn" style="text-align:center">
+                    <button data-dismiss="modal"></button>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <script>
+        $("#quxiao").click(function () {
+          
+            $('#myModal1').modal('hide')
+                   })
+    </script>
+</body>
+</html>

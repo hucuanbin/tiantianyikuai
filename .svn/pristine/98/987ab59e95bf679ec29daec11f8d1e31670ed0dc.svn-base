@@ -1,0 +1,194 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta content="telephone=no" name="format-detection" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <title></title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            /*background:black;*/
+            height: 150px;
+            width: 150px;
+            position: absolute;
+            z-index: 1;
+            -webkit-transform-style: preserve-3d;
+            -moz-transform-style: preserve-3d;
+            -ms-transform-style: preserve-3d;
+            -o-transform-style: preserve-3d;
+            transform-style: preserve-3d;
+            -webkit-transform: rotateX(-10deg) rotateY(45deg);
+            -moz-transform: rotateX(-10deg) rotateY(45deg);
+            -ms-transform: rotateX(-10deg) rotateY(45deg);
+            -o-transform: rotateX(-10deg) rotateY(45deg);
+            transform: rotateX(-10deg) rotateY(45deg);
+        }
+
+            .container div {
+                height: 150px;
+                width: 150px;
+                position: absolute;
+                left: 0;
+                top: 0;
+                color: #fff;
+                line-height: 50px;
+                text-align: center;
+                font-weight: bold;
+                cursor: pointer;
+                background: rgba( 239,239,239, 1 );
+                -webkit-transition: 500ms all ease;
+                -moz-transition: 500ms all ease;
+                -ms-transition: 500ms all ease;
+                -o-transition: 500ms all ease;
+                transition: 500ms all ease;
+            }
+
+                .container div div {
+                    border: 1px solid #fff; /* rgba( 255,255,255, 1 ) */
+                    box-shadow: 1px 0 3px #fff,1px 0px 10px #efefef;
+                    border-radius: 4px;
+                    background: -webkit-radial-gradient(center, #d81002, #b20c00 );
+                    background: -moz-radial-gradient(center, #d81002, #b20c00 );
+                    background: -ms-radial-gradient(center, #d81002, #b20c00 );
+                    background: -o-radial-gradient(center, #d81002, #b20c00 );
+                    background: radial-gradient(center, #d81002, #b20c00 );
+                }
+
+                    .container div div:hover {
+                        background: -webkit-radial-gradient(center, #f00, #b20c00 );
+                        background: -moz-radial-gradient(center, #f00, #b20c00 );
+                        background: -ms-radial-gradient(center, #f00, #b20c00 );
+                        background: -o-radial-gradient(center, #f00, #b20c00 );
+                        background: radial-gradient(center, #f00, #b20c00 );
+                    }
+
+                .container div ul {
+                    list-style: none;
+                    margin: 6.2px;
+                }
+
+                .container div li {
+                    width: 12.5px;
+                    height: 12.5px;
+                    float: left;
+                    overflow: hidden;
+                    -webkit-transition: 500ms all ease;
+                    -moz-transition: 500ms all ease;
+                    -ms-transition: 500ms all ease;
+                    -o-transition: 500ms all ease;
+                    transition: 500ms all ease;
+                }
+
+                    .container div li span {
+                        width: 10px;
+                        height: 10px;
+                        margin: 0.1px auto;
+                        display: block;
+                        background: -webkit-linear-gradient(top, #eee, #fff );
+                        background: -moz-linear-gradient(top, #eee, #fff );
+                        background: -ms-linear-gradient(top, #eee, #fff );
+                        background: -o-linear-gradient(top, #eee, #fff );
+                        background: linear-gradient(top, #eee, #fff );
+                        border-radius: 5px;
+                        box-shadow: -1px -1px 2px #000;
+                    }
+    </style>
+
+</head>
+<body>
+    <div class="container" style="top: 13px;left:11px; -webkit-transform: rotateX(0deg) rotateY(0deg); transform: rotateX(150deg) rotateY(150deg);" data-heng="4" data-shu="3">
+        <div style="-webkit-transform: rotateX(0deg) rotateY(0deg) translateZ(11px); transform: rotateX(0deg) rotateY(0deg) translateZ(10px) scaleX(0.4) scaleY(0.4); opacity: 1;">
+            <div>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li>
+                        <span></span>
+                    </li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+        </div>
+        <div style="-webkit-transform: rotateX(0deg) rotateY(180deg) translateZ(10px) scaleX(0.4) scaleY(0.4); transform: rotateX(0deg) rotateY(180deg) translateZ(10px) scaleX(0.4) scaleY(0.4); opacity: 1;">
+            <div>
+                <ul>
+                    <li>
+                        <span></span>
+                    </li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li>
+                        <span></span>
+                    </li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li>
+                        <span></span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div style="-webkit-transform: rotateX(-90deg) rotateY(0deg) translateZ(10px) scaleX(0.4) scaleY(0.4); transform: rotateX(-90deg) rotateY(0deg) translateZ(10px) scaleX(0.4) scaleY(0.4); opacity: 1;">
+            <div>
+                <ul>
+                    <li><span></span></li>
+                    <li></li>
+                    <li><span></span></li>
+                    <li></li>
+                    <li>
+                        <span></span>
+                    </li>
+                    <li></li>
+                    <li><span></span></li>
+                    <li></li>
+                    <li><span></span></li>
+                </ul>
+            </div>
+        </div>
+        <div style="-webkit-transform: rotateX(90deg) rotateY(0deg) translateZ(10px) scaleX(0.4) scaleY(0.4); transform: rotateX(90deg) rotateY(0deg) translateZ(10px) scaleX(0.4) scaleY(0.4); opacity: 1;">
+            <div>
+                <ul>
+                    <li><span></span></li>
+                    <li></li>
+                    <li><span></span></li>
+                    <li><span></span></li>
+                    <li>
+                    </li>
+                    <li><span></span></li>
+                    <li><span></span></li>
+                    <li></li>
+                    <li><span></span></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script>
+        var a = 10;
+        var daojishi = setInterval(function () {
+            
+                $(".container").css({
+                    "-webkit-transform": "rotateX(" + a + "deg) rotateY(0deg)",
+                    "transform": "rotateX(" + a + "deg) rotateY(0deg)",
+                })
+                a += 10;
+        }
+            ,500);
+
+    
+    </script>
+
+</body>
+</html>

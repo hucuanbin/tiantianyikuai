@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta content="telephone=no" name="format-detection" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/shouji-css.css" rel="stylesheet" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <title></title>
+</head>
+<body>
+    <div class="container-fluid zhifu_top p0">
+        <div>
+            <p>(第9664期)iPone6 Plus 5.5英寸 64G <span class="right"><b class="mo_xz">10</b>人次</span></p>
+            <p>(第9664期)iPone6 Plus 5.5英寸 64G <span class="right"><b class="mo_xz">10</b>人次</span></p>
+            <p>(第9664期)iPone6 Plus 5.5英寸 64G <span class="right"><b class="mo_xz">10</b>人次</span></p>
+        </div>
+        <p>奖品合计：<b class="mo_xz">12夺宝币</b></p>
+    </div>
+    <!--无夺宝币-->
+    <div class="container-fluid m-10 zhifu_jine p0">
+        <p class="yue_no">余额支付（余额：0夺宝币）</p>
+        <p>微信支付<span class="right zhifu_tu"><em class="mo_xz">12.00元</em><b class="zhif_yes"></b></span></p>
+    </div>
+    <!--通用-->
+    <div class="container-fluid zhifu_tishi">
+        每支付1元购买网易网盘空间,系统将会赠送1给夺宝币(即1次抽奖机会),网盘空间将在支付成功后实时增加,支付的款项将无法退回
+    </div>
+    <!--有夺宝币，未使用-->
+    <div class="container-fluid m-10 zhifu_jine p0">
+        <p>余额支付（余额：1夺宝币）</p>
+        <p>微信支付<span class="right zhifu_tu"><em class="mo_xz">12.00元</em><b class="zhif_yes"></b></span></p>
+    </div>
+    <!--有夺宝币，使用-->
+
+    <div class="container-fluid m-10 zhifu_jine p0">
+        <p>余额支付（余额：1夺宝币）<span class="right zhifu_tu"><em class="mo_xz">1夺宝币</em><b class="zhif_yes"></b></span></p>
+        <p>微信支付<span class="right zhifu_tu"><em class="mo_xz">12.00元</em><b class="zhif_yes"></b></span></p>
+    </div>
+    <div class="container-fluid zhifu_btn">
+        <button class="btn_quan">确认支付</button>
+    </div>
+</body>
+</html>

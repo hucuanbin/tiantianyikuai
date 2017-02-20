@@ -1,0 +1,97 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta content="telephone=no" name="format-detection" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/shouji-css.css" rel="stylesheet" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <title></title>
+</head>
+<body>
+    <!--选择充值-->
+    <div class="container-fluid chongzhi">
+        <label>1、选择充值金额(元)</label>
+        <ul>
+            <li class="jine_xz">
+20            </li>
+            <li>
+              50
+            </li>
+            <li>
+                100
+            </li>
+            <li>
+              200
+            </li>
+            <li>
+                <input placeholder="其他金额" />
+            </li>
+        </ul>
+        <div>
+            <p>每支付1元购买网易网盘空间,系统将会赠送一个夺宝币(即1次抽奖机会),网盘空间将在支付成功后实时增加,支付的款项将无法退回.</p>
+        </div>
+        <button class="btn_quan m-20">提交</button>
+    </div>
+    <script>
+        $(".chongzhi li").click(function () {
+            $(".chongzhi li").attr("class", "");
+            $(this).attr("class", "jine_xz");
+        })
+    </script>
+    <!--选择充值-->
+
+    <!--充值成功-->
+    <div  class="container-fluid chongzhi_cg">
+        <P>恭喜您,获得1个夺宝币</P>
+        <p>您购买了1M网易网盘空间,获得对应夺宝币.</p>
+        <button class="btn_quan">返回首页</button>
+        <button class="btn_quan right">查看充值记录</button>
+    </div>
+    <!--充值成功-->
+
+    <!--充值记录-->
+    <div class="container-fluid chongzhi_lj">
+        <div class="jl_tx">
+            <p>目前仅提供最近30天的充值记录:</p>
+            <p>充值金额用于购买网易网盘(1元=1MB网盘空间),同时获得对应个数的夺宝币,可用于夺宝</p>
+        </div>
+        <div class="jl_nr">
+            <div>
+                <div class="col-xs-9">
+                    <p>微信支付</p>
+                    <p>时间:2015-07-24 12:08:08</p>
+
+                </div>
+                <div class="col-xs-3">
+                    ￥1
+                </div>
+
+            </div>
+            <div>
+                <div class="col-xs-9">
+                    <p>微信支付</p>
+                    <p>时间:2015-07-24 12:08:08</p>
+
+                </div>
+                <div class="col-xs-3">
+                    ￥1
+                </div>
+
+            </div>
+
+        </div>
+        <a>没有更多了</a>
+    </div>
+    <!--充值记录-->
+    <!-- 通用-->
+    <a class="shouye" href="index.html">
+        <div>
+
+        </div>
+    </a>
+    <!-- 通用-->
+
+</body>
+</html>

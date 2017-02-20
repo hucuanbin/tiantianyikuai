@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta content="telephone=no" name="format-detection" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/shouji-css.css" rel="stylesheet" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <title></title>
+</head>
+<body>
+    <div class="geren_zx container-fluid p0">
+        <div>
+            <p>
+                头像
+                <a href="toux_genghuan.html">
+                    <img src="images/youx.jpg" />
+                </a>
+            </p>
+        </div>
+        <div>
+            <p>ID<span>52597413</span></p>
+        </div>
+        <div>
+            <p>账号<span>604747983@qq.com</span></p>
+        </div>
+        <div>
+            <p>昵称<a class="color_0079FE" href="geren_xiugai.html">微雨遇亭</a></p>
+        </div>
+        <div>
+            <p>手机账号<a class="color_0079FE" href="geren_xiugai.html">点击填写</a></p>
+        </div>
+        <div>
+            <p>我的收获地址<a class="glyphicon glyphicon-menu-right" href="dizhi_xiug.html"></a></p>
+        </div>
+    </div>
+</body>
+</html>

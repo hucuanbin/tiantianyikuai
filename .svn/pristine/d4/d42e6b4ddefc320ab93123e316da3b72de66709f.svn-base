@@ -1,0 +1,109 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta content="telephone=no" name="format-detection" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/shouji-css.css" rel="stylesheet" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <title></title>
+</head>
+<body>
+    <div class="container-fluid p0 xinr_hb_top">
+        <img src="images/huod_xinr.png" id="xinr" />
+        <p>天天一块红包派送中</p>
+        <a href="">我也要</a>
+    </div>
+    <div class="container-fluid p0 xinr_hb_index">
+        <p>看看都有谁在抢...</p>
+        <div class="xr_hb">
+            <div>
+                <div class="col-xs-2">
+                    <img src="images/youx.jpg" class="img-circle" />
+                </div>
+                <div class="col-xs-10">
+                    <p>
+                        <span class="hb_name">隔壁小王</span>
+                        <span class="hb_time">3.5元</span>
+                    </p>
+                    <p class="pingl">
+                        07/22 16:27:08
+                    </p>
+                </div>
+            </div>
+            <div>
+                <div class="col-xs-2">
+                    <img src="images/youx.jpg" class="img-circle" />
+                </div>
+                <div class="col-xs-10">
+                    <p>
+                        <span class="hb_name">隔壁小王</span>
+                        <span class="hb_time">3.5元</span>
+                    </p>
+                    <p class="pingl">
+                        07/22 16:27:08
+                    </p>
+                </div>
+            </div>
+            <div>
+                <div class="col-xs-2">
+                    <img src="images/youx.jpg" class="img-circle" />
+                </div>
+                <div class="col-xs-10">
+                    <p>
+                        <span class="hb_name">隔壁小王</span>
+                        <span class="hb_time">3.5元</span>
+                    </p>
+                    <p class="pingl">
+                        07/22 16:27:08
+                    </p>
+                </div>
+            </div>
+            <div>
+                <div class="col-xs-2">
+                    <img src="images/youx.jpg" class="img-circle" />
+                </div>
+                <div class="col-xs-10">
+                    <p>
+                        <span class="hb_name">隔壁小王</span>
+                        <span class="hb_time">3.5元</span>
+                    </p>
+                    <p class="pingl">
+                        07/22 16:27:08
+                    </p>
+                </div>
+            </div>
+            <div>
+                <div class="col-xs-2">
+                    <img src="images/youx.jpg" class="img-circle" />
+                </div>
+                <div class="col-xs-10">
+                    <p>
+                        <span class="hb_name">隔壁小王</span>
+                        <span class="hb_time">3.5元</span>
+                    </p>
+                    <p class="pingl">
+                        07/22 16:27:08
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script>
+        $(document).ready(function () {
+            $("#xinr").load(function () {
+                var top_hei = parseInt($("#xinr").height());
+                var zong_hei = parseInt($(window).height());
+                $(".xr_hb").height(zong_hei - top_hei - 27);
+                setTimeout(
+              function () {
+                  $(".xr_hb").height(zong_hei - top_hei - 27);
+              }, 300);
+
+            })
+        });
+    </script>
+</body>
+</html>

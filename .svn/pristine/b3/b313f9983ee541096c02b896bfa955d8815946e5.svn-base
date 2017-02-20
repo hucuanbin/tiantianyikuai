@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta content="telephone=no" name="format-detection" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/shouji-css.css" rel="stylesheet" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <title></title>
+</head>
+<body>
+    <div class="img_zhu">
+        <img src="images/hongb_8_0.png"/>
+    </div>
+    <div class="img_zhu">
+        <img src="images/hongb_81.jpg" />
+        <div class="bayue_index">
+           <img src="images/erweima.png"/>
+            <p>长按图片,识别途中二维码</p> 
+            <p>关注『天天一块』</p>
+        </div>
+    </div>
+    <div class="img_zhu">
+        <img src="images/hongb_82.jpg" />
+        <div class="bayue_index" style="top:4%;">
+            <img src="images/zhongj_jil.png" />
+            <p>点击底部菜单"我要红包"</p>
+            <p>或发送"红包"进入红包领取页面</p>
+        </div>
+    </div>
+    <div class="by_huod_btn">
+        <button class="by_huod_btn">立即参加</button>
+        <div class="nig_huod ol_px">
+            <p>活动规则</p>
+            <ol>
+                <li>凡在关注『天天一块』微信公众号的用户，即可获得微信818红包1个，每个用户只可享受1次818红包机会；</li>
+                <li>领取的818红包可以直接提现至微信零钱包，也可参与『天天一块』一元夺豪礼；</li>
+                <li>用户通过天天一块分享给好友，每邀请一个好友成功关注『天天一块』微信公众号并领取红包，该用户即获赠1个随机分享红包，邀请人数不限；</li>
+                <li>分享红包将统一在活动结束后发放。分享红包总额大于等于1元的，即自动存入您的微信零钱包；分享红包总额小于1元的，天天一块将赠送1夺宝币至您的天天账户中。</li>
+            </ol>
+        </div>
+
+        <p class="text-center" style="color:#fff;">本活动最终解释权归天天一块所有。</p>
+    </div>
+</body>
+</html>

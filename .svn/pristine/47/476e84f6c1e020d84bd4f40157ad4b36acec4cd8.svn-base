@@ -1,0 +1,104 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta content="telephone=no" name="format-detection" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/shouji-css.css" rel="stylesheet" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <title></title>
+</head>
+<body>
+    <div class="fenl_left_2 container-fluid p0">
+        <div class="quanbu_fenl">
+            <a href="#">
+                <div>
+                    <img src="images/qanb_fenl.png" />
+                    <p class="fei_L_1">全部分类</p>
+                </div>
+            </a>
+            <p class="m-10" style="color:#999;">分类预览</p>
+        </div>
+        <a href="#">
+            <div>
+                <b style="" class="fen_b1"></b>
+                <p>
+                    十元专区
+                </p>
+            </div>
+        </a>
+        <a href="#">
+            <div>
+                <b style="" class="fen_b2"></b>
+                <p>
+                    手机平板
+                </p>
+            </div>
+        </a>
+        <a href="#">
+            <div>
+                <b class="fen_b3"></b>
+                <p>
+                    电脑办公
+                </p>
+            </div>
+        </a>
+        <a href="#">
+            <div>
+                <b class="fen_b4"></b>
+                <p>
+                    数码影音
+                </p>
+            </div>
+        </a>
+        <a href="#">
+            <div>
+                <b class="fen_b5"></b>
+                <p>
+                    女性时尚
+                </p>
+            </div>
+        </a>
+        <a href="#">
+            <div>
+                <b class="fen_b6"></b>
+                <p>
+                    没事天地
+                </p>
+            </div>
+        </a>
+        <a href="#">
+            <div>
+                <b class="fen_b7"></b>
+                <p>
+                    潮流新品
+                </p>
+            </div>
+        </a>
+        <a href="#">
+            <div>
+                <b class="fen_b8"></b>
+                <p>
+                    周边礼品
+                </p>
+            </div>
+        </a>
+        <a href="#">
+            <div style="">
+                <b class="fen_b9"></b>
+                <p>
+                    其他奖品
+                </p>
+            </div>
+        </a>
+    </div>
+      <script>
+          $(document).ready(function () {
+              var a =parseInt( $(window).width());
+              $(".fei_L_1").width(a-65-15);
+              $(".fenl_left_2>a p").width(a - 15 - 30 - 15);
+          })
+      </script>
+</body>
+</html>

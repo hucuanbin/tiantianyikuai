@@ -1,0 +1,153 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta content="telephone=no" name="format-detection" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/shouji-css.css" rel="stylesheet" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <title></title>
+</head>
+<body>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/tianjia_img.js"></script>
+    <link href="css/main.css" rel="stylesheet"/>
+    <div class="container-fluid p0">
+        <div class="container p0">
+            <div class="diz-xiug-index">
+                <div class="wd-aqzx-1" style="border-bottom:0px ;">
+                    <input type="text" autofocus class="dz-xg-input shandan_biati" placeholder="填写标题" style="" />
+                </div>
+
+                <div class="wd-aqzx-1" style="border-bottom:none;padding-bottom:0px;">
+                    <textarea placeholder="说点什么吧" class="test_box"></textarea>
+                </div>
+                <div class="wd-aqzx-1" style="overflow:auto;padding-top:0px;">
+                    <div class="upload_form_cont" style="overflow:auto;">
+                        <form id="upload_form" enctype="multipart/form-data" method="post" action="upload.php" style="width:100%;padding:5px;">
+                            <div id="error">你应该选择有效的图像文件!</div>
+                            <div id="error2">上传文件时发生了错误</div>
+                            <div id="abort">The upload has been canceled by the user or the browser dropped the connection</div>
+                            <div id="warnsize">你的文件非常大。我们不能接受它。请选择更小的文件</div>
+                            <p class="img_tianj">添加图片</p>
+
+                            <div class="shaidan_img" style="overflow:auto;">
+                                <img id="preview" src="" />
+                                <div style="width:23%;margin-right:2%;  height:90px;">
+                                    <input type="file" style="width:100%;" name="image_file" id="image_file" onchange="fileSelected();" />
+                                    <span class="glyphicon glyphicon-plus"></span>
+                                </div>
+                                <p style="display:block;width:100%;height:auto;text-align:center;padding-top:5px;">单击图片可选择删除</p>
+                            </div>
+                            <div id="progress_info" style="margin-bottom:0px;">
+                                <div id="progress"></div>
+                                <div id="progress_percent">&nbsp;</div>
+                                <div class="clear_both"></div>
+                                <div>
+                                    <div id="speed">&nbsp;</div>
+                                    <div id="remaining">&nbsp;</div>
+                                    <div id="b_transfered">&nbsp;</div>
+                                    <div class="clear_both"></div>
+                                </div>
+                                <div id="upload_response"></div>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="diz-xiug-index1">
+                <button type="button" class="btn btn-primary btn-lg btn-block" style="background:#DD2447;border:none">发表</button>
+            </div>
+        </div>
+    </div> 
+    <!--删除弹窗-->
+    <div id="myModal1" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog1  anq-sz-jymm" style="width:90% !important">
+            <div class="modal-content">
+                <div class="modal-body dz-xiugai-tc">
+                    <p class="cs_img">确认删除图片？</p>
+                </div>
+                <div class="modal-footer dz-xiugai-tc-1" style="text-align:center">
+                    <ul>
+                        <li><a data-dismiss="modal">取消</a></li>
+                        <li><a data-dismiss="modal" id="quer_shanc">确认</a></li>
+                    </ul>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <script>
+    var a = -1;
+    $(".dizhi_shx select").each(function () {
+        $(this).parent().children("input").val($(this).val());
+    })
+    $(".dizhi_shx select").change(function () {
+        $(this).parent().children("input").val($(this).val());
+    });
+    $(".test_box").click(function () {
+        if ($(this).attr("data-data") == 0) {
+            $(this).text("");
+        }
+    });
+
+
+    $("#image_file").change(function () {
+        var iMaxFilesize = 1048576; // 1MB
+        var oFile = document.getElementById('image_file').files[0];
+        var rFilter = /^(image\/bmp|image\/gif|image\/jpeg|image\/png|image\/tiff)$/i;
+        if (!rFilter.test(oFile.type)) {
+        }
+        else if (oFile.size > iMaxFilesize) {
+            return;
+        }
+        else {
+            $("#preview").attr("id", "")
+            $(".shaidan_img>img:last").after("<img id='preview'src='' />");
+        }
+        var img_top = $("#preview").offset().top;
+        var img_left = $("#preview").offset().left;
+        $(".shaidan_img>div").css("left", img_left);
+        $(".shaidan_img>div").css("top", img_top);
+    });
+    var img_top1 = $("#preview").offset().top;
+    var img_left1 = $("#preview").offset().left;
+    var img_wid = $("#preview").width();
+    $(".shaidan_img>div").css("left", img_left1);
+    $(".shaidan_img>div").css("top", img_top1);
+    $(".shaidan_img>div").width(img_wid - 2);
+
+    $(".shaidan_img>div>span").css("left", $(".shaidan_img>div").width() / 2 - 10);
+
+
+
+
+
+
+    //添加图片——删除
+    $(document).on('click', '.shaidan_img>img', function (e) {
+        if ($(this).attr("src") == "")
+            return;
+        else {
+            a = $(this).index();
+            $('#myModal1').modal({
+                keyboard: false
+            })
+        }
+    });
+    $("#quer_shanc").click(function () {
+
+        $(".shaidan_img>img:eq(" + a + ")").attr("src");
+        $(".shaidan_img>img:eq(" + a + ")").remove();
+        var img_top = $("#preview").offset().top;
+        var img_left = $("#preview").offset().left;
+        $(".shaidan_img>div").css("left", img_left);
+        $(".shaidan_img>div").css("top", img_top);
+    })
+    </script>
+
+
+</body>
+</html>

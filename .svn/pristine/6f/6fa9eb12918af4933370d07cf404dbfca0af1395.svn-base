@@ -1,0 +1,113 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta content="telephone=no" name="format-detection" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/shouji-css.css" rel="stylesheet" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <title></title>
+</head>
+<body>
+    <div class="container-fluid shuom">
+        <label>了解天天一块</label>
+        <p>
+            天天一块是天天网盘旗下的一个会员福利系统,天天网盘的会员每花费1元购买网盘空间即获赠1个云豆,会员可用云豆参与夺宝,就有机会获得一件奖品。
+        </p>
+        <div class="kuaidu_liaojie">
+            <label>如何快速夺宝</label>
+            <p><span><b>1</b>挑选喜欢的奖品;</span></p>
+            <p><span><b>2</b>支付云豆参与夺宝;</span></p>
+            <p><span><b>3</b>等待开奖,系统根据规则计算出一个幸运号码,持有该号码的用户,直接获得该奖品！</span></p>
+        </div>
+    </div>
+    <div class="container-fluid shuom">
+        <label>幸运号码计算规则</label>
+        <div class="shuomo_index">
+            <p>
+                奖品的最后一个号码分配完毕后,将公示该分配时间点前本站全部奖品的最后50个参与时间;
+                <b>1</b>
+            </p>
+            <p>
+                将这50个时间的数值进行求和(得出数值A)(每个时间按时、分、秒、毫秒的顺序组合,如20:11:15.285则为201115285);
+                <b>2</b>
+            </p>
+            <p>
+                为保证公平公正公开,系统还会等待一小段时间,取最近下一期中国福利彩票“老时时彩”的开奖结果(一个五位数值B);
+                <b>3</b>
+            </p>
+            <p>
+                (数值A+数值B)除以该奖品总需人次得到的余数 + 原始数 10000001,得到最终幸运号码,拥有该幸运号码者,直接获得该奖品。                
+                <b>4</b>
+            </p>
+            <span>注：最后一个号码认购时间距离“老时时彩”最近下一期开奖大于24小时,默认“老时时彩”开奖结果为00000;如遇福彩中心通讯故障,无法获取“老时时彩”开奖结果,最后一个号码分配时间距离故障时间大于24小时,亦默认“老时时彩”开奖结果为00000。</span>
+        </div>
+    </div>
+    <div class="container-fluid shuom">
+        <label>关于“老时时彩”</label>
+        <div class="shuomo_index">
+            <p>
+                “老时时彩”是由中国福彩中心发行的一种彩票,天天一块仅取其结果作为抗干扰数据源,以示公平公正公开,和“老时时彩”本身没有任何关系;
+                <b>1</b>
+            </p>
+            <p>
+                “老时时彩”每天10:00-22:00-02:00进行开奖,白天72期,10分钟开奖,夜间48期,5分钟开奖,停开时间以福彩中心公布信息为准;
+                <b>2</b>
+            </p>
+        </div>
+    </div>
+    <div class="container-fluid shuom">
+        <label>保障公平公正透明</label>
+        <div class="kuaidu_liaojie kuaid_shuom m-10">
+            <p><span><b>公平</b>天天一块作为一个平台,保证所有参与夺宝的用户行为,都享受同样的权利与义务。</span></p>
+            <p><span><b>公正</b>天天一块幸运号码计算公式,加入了“老时时彩”数据作为公正数据源,保证开奖结果的随机性,保证绝对公正性。</span></p>
+            <p><span><b>透明</b>天天一块的夺宝过程是完全透明的,您可以随时查看每个奖品的参与人数、参与次数、  参与名单及中奖信息等记录。</span></p>
+        </div>
+    </div>
+    <div class="container-fluid shuom">
+        <label>关于奖品配送</label>
+        <p>在您获奖后,天天一块会第一时间为您寄出奖品,大陆地区免快递费。</p>
+        <p>获得奖品后,请您尽快提交收货地址及联系信息,超过7天未确认收货地址,视为自动放弃该奖品。</p>
+    </div>
+    <div class="container-fluid shuom">
+        <label>关于奖品验收与签收</label>
+        <div class="shuomo_index">
+            <p>
+                签收时请慎重,尽量本人签收,签收时务必仔细检查奖品,如：外包装是否被开封,奖品是否破损,配件是否缺失,功能是否正常。在确保无误后再签收,以免产生不必要的纠纷。若有任何疑问,请及时拨打客服电话反馈信息,若因用户未仔细检查奖品即签收后产生的纠纷,天天一块概不负责,仅承担协调处理的义务;                <b>1</b>
+                <b>1</b>
+            </p>
+            <p>
+                用户所获奖品,相关商品质量及保修问题请直接联系生产厂家;
+                <b>2</b>
+            </p>
+            <p>
+                若因您的地址填写错误、联系方式填写有误等情况造成奖品无法完成投递或被退回,所产生的额外费用及后果由用户负责;
+                <b>3</b>
+            </p>
+            <p>
+                如因不可抗拒的自然原因,如地震、洪水等,所造成的奖品配送延迟,天天一块不承担责任;
+                <b>4</b>
+            </p>
+            <p>
+                温馨提醒：若奖品已签收,则说明奖品配送正确无误且不存在影响使用的因素,天天一块有权不受理换货申请。
+                <b>5</b>
+            </p>
+        </div>
+    </div>
+    <div class="container-fluid shuom">
+        <label>长时间未收到奖品</label>
+        <div class="shuomo_index">
+            <p>
+                确保收货地址、邮编、电话、Email、地址等各项信息的准确性;
+                <b>1</b>
+            </p>
+            <p>
+                配送过程中联系方式畅顺无阻,如果联络您的时间超过7天未得到回复,默认您已经放弃此奖品。
+                <b>2</b>
+            </p>
+        </div>
+
+    </div>
+</body>
+</html>

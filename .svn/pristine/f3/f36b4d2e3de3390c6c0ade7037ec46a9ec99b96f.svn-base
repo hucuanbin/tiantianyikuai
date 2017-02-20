@@ -1,0 +1,172 @@
+﻿body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, p, textarea, th, td {
+    margin: 0;
+    padding: 0;
+}
+
+body, button, input, select, textarea {
+    font: 12px/1.5tahoma, arial, \5b8b\4f53;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+}
+
+address, cite, dfn, em, var {
+    font-style: normal;
+}
+
+code, kbd, pre, samp {
+    font-family: couriernew, courier, monospace;
+}
+
+small {
+    font-size: 12px;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+sup {
+    vertical-align: text-top;
+}
+
+sub {
+    vertical-align: text-bottom;
+}
+
+legend {
+    color: #000;
+}
+
+fieldset, img {
+    border: 0;
+}
+
+button, input, select, textarea {
+    font-size: 100%;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+body, html {
+    height: 100%;
+    width: 100%;
+}
+
+a:hover {
+    color: #fff;
+}
+
+.pc_top {
+    padding: 0px;
+    height: 124px;
+    padding: 10px;
+}
+
+.pc_index_nav {
+    color: #fff;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 55px;
+    margin-top: 30px;
+}
+
+.p0 {
+    padding: 0px !important;
+}
+
+.pc_index_left {
+    position: relative;
+    padding-top: 140px;
+    text-align: center;
+}
+
+.pc_index_erweim {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.pc_index_Left_p {
+    color: #fff;
+    font-size: 24px;
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#jswbox {
+    width: 1100px;
+    height: 600px;
+    margin: 0 auto;
+    position: relative;
+}
+
+    #jswbox ul {
+        position: relative;
+        height: 600px;
+    }
+
+    #jswbox li {
+        position: absolute;
+        width: 0;
+        height: 0;
+        z-index: 0;
+        cursor: pointer;
+        overflow: hidden;
+        top: 152px;
+        left: 10px;
+    }
+
+        #jswbox li img {
+            width: 100%;
+            height: 100%;
+            vertical-align: top;
+            float: left;
+        }
+
+    #jswbox .prev, #jswbox .next {
+        display: none;
+    }
+
+.container-fluid {
+    margin-right: auto;
+    margin-left: auto;
+    overflow:auto;
+}
+.container{
+    margin-right: auto;
+  margin-left: auto;
+      overflow:auto;
+}
+.col-xs-6{
+    width:50%;
+    float: left;
+}
+.col-xs-9{
+    width:75%;
+    float: left;
+}
+.col-xs-3{
+    width:25%;
+    float: left;
+    *width:24%;
+}
+#zong_hei{
+    min-height:780px;
+    min-width:1170px;
+    height:100%;
+    overflow:hidden;
+}

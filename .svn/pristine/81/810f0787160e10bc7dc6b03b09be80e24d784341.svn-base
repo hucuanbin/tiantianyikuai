@@ -1,0 +1,228 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta content="telephone=no" name="format-detection" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/shouji-css.css" rel="stylesheet" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <title></title>
+</head>
+<body>
+    <style>
+         *{
+        font-family:'方正正黑'  
+        }
+    </style>
+    <div class="container-fluid p0">
+        <img src="images/xues_zq_top.png" class="img-responsive" />
+    </div>
+    <div class="container-fluid p0 text-center zc_xq">
+        <div class="zc_xq_index">
+            <div class="zc_xq_index_0">
+                <img src="images/shangpin_1.png" class="xues_zc_img sp_Name" />
+                <div class="xues_ziti xue_zc_div">
+                    <div class="col-xs-6 p0">
+                        <p  class="xue_zx_p1">
+                            ￥<span class="xue_zx_span">1</span><span class="xue_za_span1" >.00</span>元
+                        </p>
+                        <p class="xue_zx_p2">总需:233</p>
+                    </div>
+                    <a class="xue_zc_a gwc_tj">加入清单</a>
+                </div>
+                <p  class="shengl xes_zx_p3">自行自行自行自行自行自行</p>
+            </div>
+            <div class="zc_xq_index_0">
+                <img src="images/shangpin_1.png" class="xues_zc_img sp_Name" />
+                <div class="xues_ziti xue_zc_div">
+                    <div class="col-xs-6 p0">
+                        <p class="xue_zx_p1">
+                            ￥<span class="xue_zx_span">1</span><span class="xue_za_span1">.00</span>元
+                        </p>
+                        <p class="xue_zx_p2">总需:233</p>
+                    </div>
+                    <a class="xue_zc_a gwc_tj">加入清单</a>
+                </div>
+                <p class="shengl xes_zx_p3">自行自行自行自行自行自行</p>
+            </div>
+            <div class="zc_xq_index_0">
+                <img src="images/shangpin_1.png" class="xues_zc_img sp_Name" />
+                <div class="xues_ziti xue_zc_div">
+                    <div class="col-xs-6 p0">
+                        <p class="xue_zx_p1">
+                            ￥<span class="xue_zx_span">1</span><span class="xue_za_span1">.00</span>元
+                        </p>
+                        <p class="xue_zx_p2">总需:233</p>
+                    </div>
+                    <a class="xue_zc_a gwc_tj">加入清单</a>
+                </div>
+                <p class="shengl xes_zx_p3">自行自行自行自行自行自行</p>
+            </div>
+            <div class="zc_xq_index_0">
+                <img src="images/shangpin_1.png" class="xues_zc_img sp_Name" />
+                <div class="xues_ziti xue_zc_div">
+                    <div class="col-xs-6 p0">
+                        <p class="xue_zx_p1">
+                            ￥<span class="xue_zx_span">1</span><span class="xue_za_span1">.00</span>元
+                        </p>
+                        <p class="xue_zx_p2">总需:233</p>
+                    </div>
+                    <a class="xue_zc_a gwc_tj">加入清单</a>
+                </div>
+                <p class="shengl xes_zx_p3">自行自行自行自行自行自行</p>
+            </div>
+            <div class="zc_xq_index_0">
+                <img src="images/shangpin_1.png" class="xues_zc_img sp_Name" />
+                <div class="xues_ziti xue_zc_div">
+                    <div class="col-xs-6 p0">
+                        <p class="xue_zx_p1">
+                            ￥<span class="xue_zx_span">1</span><span class="xue_za_span1">.00</span>元
+                        </p>
+                        <p class="xue_zx_p2">总需:233</p>
+                    </div>
+                    <a class="xue_zc_a gwc_tj">加入清单</a>
+                </div>
+                <p class="shengl xes_zx_p3">自行自行自行自行自行自行</p>
+            </div>
+            <div class="zc_xq_index_0">
+                <img src="images/shangpin_1.png" class="xues_zc_img sp_Name" />
+                <div class="xues_ziti xue_zc_div">
+                    <div class="col-xs-6 p0">
+                        <p class="xue_zx_p1">
+                            ￥<span class="xue_zx_span">1</span><span class="xue_za_span1">.00</span>元
+                        </p>
+                        <p class="xue_zx_p2">总需:233</p>
+                    </div>
+                    <a class="xue_zc_a gwc_tj">加入清单</a>
+                </div>
+                <p class="shengl xes_zx_p3">自行自行自行自行自行自行</p>
+            </div>
+            <div class="zc_xq_index_0">
+                <img src="images/shangpin_1.png" class="xues_zc_img sp_Name" />
+                <div class="xues_ziti xue_zc_div">
+                    <div class="col-xs-6 p0">
+                        <p class="xue_zx_p1">
+                            ￥<span class="xue_zx_span">1</span><span class="xue_za_span1">.00</span>元
+                        </p>
+                        <p class="xue_zx_p2">总需:233</p>
+                    </div>
+                    <a class="xue_zc_a gwc_tj">加入清单</a>
+                </div>
+                <p class="shengl xes_zx_p3">自行自行自行自行自行自行</p>
+            </div>
+            <div class="zc_xq_index_0">
+                <img src="images/shangpin_1.png" class="xues_zc_img sp_Name" />
+                <div class="xues_ziti xue_zc_div">
+                    <div class="col-xs-6 p0">
+                        <p class="xue_zx_p1">
+                            ￥<span class="xue_zx_span">1</span><span class="xue_za_span1">.00</span>元
+                        </p>
+                        <p class="xue_zx_p2">总需:233</p>
+                    </div>
+                    <a class="xue_zc_a gwc_tj">加入清单</a>
+                </div>
+                <p class="shengl xes_zx_p3">自行自行自行自行自行自行</p>
+            </div>
+            <div class="zc_xq_index_0">
+                <img src="images/shangpin_1.png" class="xues_zc_img sp_Name" />
+                <div class="xues_ziti xue_zc_div">
+                    <div class="col-xs-6 p0">
+                        <p class="xue_zx_p1">
+                            ￥<span class="xue_zx_span">1</span><span class="xue_za_span1">.00</span>元
+                        </p>
+                        <p class="xue_zx_p2">总需:233</p>
+                    </div>
+                    <a class="xue_zc_a gwc_tj">加入清单</a>
+                </div>
+                <p class="shengl xes_zx_p3">自行自行自行自行自行自行</p>
+            </div>
+            <div class="zc_xq_index_0">
+                <img src="images/shangpin_1.png" class="xues_zc_img sp_Name" />
+                <div class="xues_ziti xue_zc_div">
+                    <div class="col-xs-6 p0">
+                        <p class="xue_zx_p1">
+                            ￥<span class="xue_zx_span">1</span><span class="xue_za_span1">.00</span>元
+                        </p>
+                        <p class="xue_zx_p2">总需:233</p>
+                    </div>
+                    <a class="xue_zc_a gwc_tj">加入清单</a>
+                </div>
+                <p class="shengl xes_zx_p3">自行自行自行自行自行自行</p>
+            </div>
+
+
+        </div>
+    </div> 
+    <div class="container-fluid p0">
+        <img src="images/xues_zq_db.png" class="img-responsive" />
+    </div>
+    <!--购物车-->
+    <a href="qingdan.html">
+        <div class="index_gwx_wq">
+            <div class="index_couwuche">
+                <b class="index_gwx_nei">1</b>
+            </div>
+        </div>
+    </a>    
+    <span class="wohuifei">
+        <img src="" />
+    </span>
+
+    <script>
+
+        $(".gwc_tj").click(function (e) {
+            var src = $(this).parent().parent().find(".sp_Name").attr("src");
+            var a_w = $(this).parent().parent().find(".sp_Name").offset().top;
+            var a_l = $(this).parent().parent().find(".sp_Name").offset().left;
+            var a1_w = $(".index_gwx_wq").offset().top;
+            var a1_l = $(".index_gwx_wq").offset().left;
+            //    alert("TOP:"+a1_w+",left"+a1_l)
+            //  alert(gwc.offset().top);
+            $(".wohuifei>img").attr("src", src);
+            $(".wohuifei").css("display", "inline-block");
+            $(".wohuifei").css("top", a_w);
+            $(".wohuifei").css("left", a_l);
+
+
+            var time1 = setTimeout(
+                function () {
+                    $(".wohuifei>img").css("box-shadow", "0px 0px 15px #999")
+                    $(".wohuifei>img").css("transition", "0.6s linear");
+                    $(".wohuifei>img").css("border-radius", "50px");
+                    $(".wohuifei>img").css("border", "1px #ccc solid");
+
+                }, 70);
+            var time2 = setTimeout(
+                function () {
+                    $(".wohuifei").css("transition", "0.4s linear");
+                    $(".wohuifei>img").css("transition", "0.4s linear");
+                    $(".wohuifei>img").css("height", "35px");
+                    $(".wohuifei>img").css("width", "35px");
+                    $(".wohuifei").css("height", "35px");
+                    $(".wohuifei").css("width", "35px");
+                    $(".wohuifei").css("top", a1_w);
+                    $(".wohuifei").css("left", a1_l);
+                }, 970);
+            var time3 = setTimeout(
+                  function () {
+                      $(".wohuifei").css("display", "none");
+                      $(".wohuifei").attr("style", "");
+                      $(".wohuifei>img").attr("style", "");
+                      $(".xuan_fuc>span").attr("class", "atc");
+                      var shuzi = parseInt($(".index_gwx_nei").text());
+                      $(".index_gwx_nei").text(shuzi + 1);
+                  }, 1400);
+            var time4 = setTimeout(
+                        function () {
+                            $(".xuan_fuc>span").attr("class", "");
+
+                        }, 2450);
+
+
+            var pid = $(this).attr("id").substr(13);
+            add_shoppingcart(pid);
+        })
+    </script>
+</body>
+</html>

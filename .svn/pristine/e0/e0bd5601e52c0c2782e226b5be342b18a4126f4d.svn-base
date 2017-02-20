@@ -1,0 +1,309 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta content="telephone=no" name="format-detection" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/shouji-css.css" rel="stylesheet" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <title></title>
+</head>
+<!--轮播图片大小640*240-->
+<!--商品图片大小200*150-->
+<body>
+    <link href="css/styles.css" rel="stylesheet" />
+    <script src="js/yxMobileSlider1.js"></script>
+    <!--默认图片需要JS(开始)-->
+    <script src="js/lazyload.js"></script>
+    <script>
+        $(function () {
+            $("img").lazyload({
+                placeholder: "/images/moren.png",
+                effect: "fadeIn"
+            });
+        });
+    </script>
+    <!--默认图片需要JS(结束)-->
+    <style>
+        body {
+            padding-bottom: 52px !important;
+        }
+    </style>
+
+    <div class="container-fluid p0 index_top">
+        <nav>
+            <a href="index.html">
+                <p><em class="index_top_b1"></em></p>
+                首页
+            </a>
+            <a class="mo_xz" href="quanbu_sq.html">
+                <p><em class="index_top_b21"></em></p>
+                全部奖品
+            </a>
+            <a href="shandan_index.html">
+                <p><em class="index_top_b3"></em></p>
+                晒单
+            </a>
+            <a href="gerenzhongxin.html">
+                <p><em class="index_top_b4"></em></p>
+                个人中心
+            </a>
+        </nav>
+    </div>
+    <div class="quanbu_index container-fluid p0">
+        <div class="quanbu_index_top">
+            <label class="mo_xz" data-data="-45">
+                全部奖品
+                <b class="quanbu_xq"></b>
+            </label>
+            <a class="mo_xz">人气</a>
+            <a>最新</a>
+            <a>剩余人次</a>
+            <a data-data="0">
+                总需人次
+                <b class="congxu_sanj">
+                    <em></em>
+                    <em></em>
+                </b>
+            </a>
+        </div>
+        <div class="quanbu_tc">
+            <div class="col-xs-4">
+                <b class="quanbu_tc_b1"></b><span>全部奖品</span>
+            </div>
+            <div class="col-xs-4">
+                <b class="quanbu_tc_b21"></b><span>平板手机</span>
+            </div>
+            <div class="col-xs-4">
+                <b class="quanbu_tc_b31"></b><span>办公电脑</span>
+            </div>
+            <div class="col-xs-4">
+                <b class="quanbu_tc_b41"></b><span>数码影音</span>
+            </div>
+            <div class="col-xs-4">
+                <b class="quanbu_tc_b51"></b><span>女性时尚</span>
+            </div>
+            <div class="col-xs-4">
+                <b class="quanbu_tc_b61"></b><span>美食天地</span>
+            </div>
+            <div class="col-xs-4">
+                <b class="quanbu_tc_b71"></b><span>潮流新品</span>
+            </div>
+            <div class="col-xs-4">
+                <b class="quanbu_tc_b81"></b><span>网易周边</span>
+            </div>
+            <div class="col-xs-4">
+                <b class="quanbu_tc_b91"></b><span>其他奖品</span>
+            </div>
+            <div class="zhengm">
+
+            </div>
+        </div>
+    </div>
+    <div class="quanbu_sq">
+        <div>
+            <div class="col-xs-3">
+                <!--默认图片格式-->
+                <img src="/images/moren.png" data-original="images/shangpin_1.png" class="sp_Name" />';
+                <!--默认图片格式-->
+            </div>
+            <div class="col-xs-9">
+                <p class="quanbu_biaoti">
+                    (第9638期)iPhone6 Plus 5.5英寸.5英寸
+                </p>
+                <div class="col-xs-9 jindu_tiao">
+                    <span>总需:<b class="zong_shu">6088 </b>人次</span>
+                    <div>
+                        <div></div>
+                    </div>
+                    <p>
+                        <span><b class="yi_shu">3044 </b>已参与</span>
+                        <span class="right">剩余<b class="sheng_shu color_0079FE">3044</b></span>
+                    </p>
+
+                </div>
+                <div class="col-xs-3 tianjia_qiiu">
+                    <span class="gwc_tj">
+                        <b class="tianji_heng"></b>
+                        <b class="tianji_heng"></b>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="col-xs-3">
+                <!--默认图片格式-->
+                <img src="/images/moren.png" data-original="images/shangpin_1.png" class="sp_Name" />';
+                <!--默认图片格式-->
+            </div>
+            <div class="col-xs-9">
+                <p class="quanbu_biaoti">
+                    (第9638期)iPhone6 Plus 5.5英寸.5英寸
+                </p>
+                <div class="col-xs-9 jindu_tiao">
+                    <span>总需:<b class="zong_shu">6088 </b>人次</span>
+                    <div>
+                        <div></div>
+                    </div>
+                    <p>
+                        <span><b class="yi_shu">3044 </b>已参与</span>
+                        <span class="right">剩余<b class="sheng_shu color_0079FE">3044</b></span>
+                    </p>
+
+                </div>
+                <div class="col-xs-3 tianjia_qiiu">
+                    <span class="gwc_tj">
+                        <b class="tianji_heng"></b>
+                        <b class="tianji_heng"></b>
+                    </span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <div class="container-fluid m-10">
+        <div class="index_chakan">
+            <a>
+                点击查看等多奖品
+            </a>
+        </div>
+    </div>
+
+    <div class="container-fluid index_zhushi m-10 p0">
+        <p class="zhuming">
+            特别注明：苹果公司不是一元夺宝赞助商,并且苹果公司也不会以任何形式参与其中！
+        </p>
+        <p><a href="#" class="color_0079FE">什么是一元夺宝?</a></p>
+        <p class="index_bz">
+            <b class="index_bz_1"></b>
+            <span>公平公正公开</span>
+            <b class="index_bz_2"></b>
+            <span>正品保证</span>
+            <b class="index_bz_3"></b>
+            <span>权益保障</span>
+        </p>
+    </div>
+
+    <div class="index_gwx_wq">
+        <div class="index_couwuche">
+            <b class="index_gwx_nei">1</b>
+        </div>
+    </div>
+    <div class="index_goon">
+        <span class="glyphicon glyphicon-arrow-up">
+
+        </span>
+    </div>
+    <span class="wohuifei">
+        <img src="" />
+    </span>
+
+    <script src="js/daojishi.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".quanbu_xq").css("transform", "rotate(-45deg)");
+            $(".congxu_sanj > em").css("transform", "rotate(-45deg)");
+        });
+        //出现回到顶部图标
+        $(window).scroll(function () {
+            var st = parseInt($(this).scrollTop());
+            if (st > 100) {
+                $(".index_goon").fadeIn(300);
+            }
+            else {
+                $(".index_goon").fadeOut(300);
+            }
+        });
+        //点击回到顶部图标
+        $(".index_goon").click(function () {
+            $('html,body').animate({ scrollTop: '0px' }, 300);
+        })
+
+
+        //全部奖品——旋转
+        $(".quanbu_index_top>label").click(function () {
+            var a = parseInt($(this).attr("data-data"));
+            $(".quanbu_xq").css("transform", "rotate(" + (a + 180) + "deg)");
+            $(this).attr("data-data", a + 180);
+            $(".quanbu_tc").slideToggle(300);
+            //
+
+
+        })
+
+
+
+        //排序方式切换
+        $(".quanbu_index_top a").click(function () {
+            $(".quanbu_index_top a").attr("class", "");
+            $(this).attr("class", "mo_xz");
+            $(".congxu_sanj>em").attr("class", "");
+            if ($(this).attr("data-data") != undefined) {
+                //总需箭头切换
+                var a = parseInt($(".quanbu_index_top a:last ").attr("data-data"));
+                $(".quanbu_index_top a em").attr("class", "");
+                $(".quanbu_index_top a:last em:eq(" + a % 2 + ")").attr("class", "zongxu_xz");
+                $(this).attr("data-data", a + 1);
+            }
+        });
+
+        //添加购物车
+
+        $(".gwc_tj").click(function (e) {
+            var src = $(this).parent().parent().parent().find(".sp_Name").attr("src");
+            var a_w = $(this).parent().parent().parent().find(".sp_Name").offset().top;
+            var a_l = $(this).parent().parent().parent().find(".sp_Name").offset().left;
+            var a1_w = $(".index_gwx_wq").offset().top;
+            var a1_l = $(".index_gwx_wq").offset().left;
+            //    alert("TOP:"+a1_w+",left"+a1_l)
+            //  alert(gwc.offset().top);
+            $(".wohuifei>img").attr("src", src);
+            $(".wohuifei").css("display", "inline-block");
+            $(".wohuifei").css("top", a_w);
+            $(".wohuifei").css("left", a_l);
+
+
+            var time1 = setTimeout(
+                function () {
+                    $(".wohuifei>img").css("box-shadow", "0px 0px 15px #999")
+                    $(".wohuifei>img").css("transition", "0.6s linear");
+                    $(".wohuifei>img").css("border-radius", "50px");
+                    $(".wohuifei>img").css("border", "1px #ccc solid");
+
+                }, 70);
+            var time2 = setTimeout(
+                function () {
+                    $(".wohuifei").css("transition", "0.4s linear");
+                    $(".wohuifei>img").css("transition", "0.4s linear");
+                    $(".wohuifei>img").css("height", "35px");
+                    $(".wohuifei>img").css("width", "35px");
+                    $(".wohuifei").css("height", "35px");
+                    $(".wohuifei").css("width", "35px");
+                    $(".wohuifei").css("top", a1_w);
+                    $(".wohuifei").css("left", a1_l);
+                }, 970);
+            var time3 = setTimeout(
+                  function () {
+                      $(".wohuifei").css("display", "none");
+                      $(".wohuifei").attr("style", "");
+                      $(".wohuifei>img").attr("style", "");
+                      $(".xuan_fuc>span").attr("class", "atc");
+                  }, 1400);
+            var time4 = setTimeout(
+                        function () {
+                            $(".xuan_fuc>span").attr("class", "");
+                        }, 2450);
+
+            var pid = $(this).attr("id").substr(13);
+            add_shoppingcart(pid);
+        })
+
+     
+
+    </script>
+</body>
+</html>

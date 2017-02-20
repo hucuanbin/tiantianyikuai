@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta content="telephone=no" name="format-detection" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <title></title>
+    <style>
+     @media only screen and (max-width: 414px){
+       #nimei {
+                display:none;
+        }
+}
+    </style>
+</head>
+<body>
+    <div class="col-md-4 col-xs-4 col-sm-4" style="height:50px;background:#ff0000">
+
+    </div>
+    <div class="col-md-4  col-sm-4" style="height:50px;background:#00ff90" id="nimei">
+
+    </div>
+    <div class="col-md-4  col-xs-8  col-sm-4" style="height:50px;background:#b6ff00">
+
+    </div>
+</body>
+</html>

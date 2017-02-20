@@ -1,0 +1,128 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta content="telephone=no" name="format-detection" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/shouji-css.css" rel="stylesheet" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <title></title>
+</head>
+<body>
+    <div class="container-fluid js_gongshi">
+        <label>计算公式</label>
+        <p>[(数值A+数值B)/奖品所需人数]取余数+1000001</p>
+    </div>
+    <!--未揭晓-->
+    <div class="container-fluid jixuan_index m-10 p0">
+        <div class="zhuzhi">
+            <label>数值A</label>
+            <p>=截止该奖品开奖时间前最后50条全站参与记录</p>
+            <p>=<b class="mo_xz">5100036</b> <span class="right color_0079FE jx_zhankai">展开↓</span></p>
+        </div>
+        <div class="suanfa_fa">
+            <ul>
+                <li>
+                    <p>夺宝时间</p>
+                </li>
+                <li>
+                    <p>用户帐号</p>
+                </li>
+                <li>
+                    <p>2015-07-23 23:15:18 <span class="glyphicon glyphicon-arrow-right mo_xz"></span></p>
+                    <p><b class="mo_xz">231515895</b></p>
+                </li>
+                <li>
+                    <span>用户帐号</span>
+                </li>
+                <li>
+                    <p>2015-07-23 23:15:18 <span class="glyphicon glyphicon-arrow-right mo_xz"></span></p>
+                    <p><b class="mo_xz">231515895</b></p>
+                </li>
+                <li>
+                    <span>用户帐号用户帐号用户帐号</span>
+                </li>
+            </ul>
+        </div>
+        <div class="zhuzhi">
+            <label>数值B</label>
+            <p>=最近一期中国福利彩票"老时时彩"的开奖结果</p>
+            <p>=<b class="colo_huang">正在等待开奖...</b> <span class="right color_0079FE">开奖查询</span></p>
+        </div>
+        <div class="jieguo m-10">
+            <label>计算结果</label>
+            <p>幸运号码：<b class="colo_huang">等待揭晓</b></p>
+        </div>
+    </div>
+    
+    <!--揭晓-->
+    <div class="container-fluid jixuan_index m-10 p0">
+        <div class="zhuzhi">
+            <label>数值A</label>
+            <p>=截止该奖品开奖时间前最后50条全站参与记录</p>
+            <p>=<b class="mo_xz">5100036</b> <span class="right color_0079FE jx_zhankai">展开↓</span></p>
+        </div>
+        <div class="suanfa_fa">
+            <ul>
+                <li>
+                    <p>夺宝时间</p>
+                </li>
+                <li>
+                    <p>用户帐号</p>
+                </li>
+                <li>
+                    <p>2015-07-23 23:15:18 <span class="glyphicon glyphicon-arrow-right mo_xz"></span></p>
+                    <p><b class="mo_xz">231515895</b></p>
+                </li>
+                <li>
+                    <span>用户帐号</span>
+                </li>
+                <li>
+                    <p>2015-07-23 23:15:18 <span class="glyphicon glyphicon-arrow-right mo_xz"></span></p>
+                    <p><b class="mo_xz">231515895</b></p>
+                </li>
+                <li>
+                    <span>用户帐号用户帐号用户帐号</span>
+                </li>
+            </ul>
+        </div>
+        <div class="zhuzhi">
+            <label>数值B</label>
+            <p>=最近一期中国福利彩票"老时时彩"的开奖结果</p>
+            <p>=<b class="mo_xz">100008</b> (第20150723112期) <span class="right color_0079FE">开奖查询</span></p>
+        </div>
+        <div class="jieguo m-10">
+            <label>计算结果</label>
+            <p>幸运号码：<b class="mo_xz">1000003</b></p>
+        </div>
+    </div>
+
+    <!--通用-->
+    <div class="index_goon">
+        <span class="glyphicon glyphicon-arrow-up">
+
+        </span>
+    </div>
+    <script>
+        //滑动效果
+            $(".jx_zhankai").click(function () {
+                $(".suanfa_fa").slideToggle();
+            })
+
+            //出现回到顶部图标
+            $(window).scroll(function () {
+                var st = parseInt($(this).scrollTop());
+                if (st > 100) {
+                    $(".index_goon").fadeIn(300);
+                }
+                else {
+                    $(".index_goon").fadeOut(300);
+                }
+            });            //点击回到顶部图标
+            $(".index_goon").click(function () {
+                $('html,body').animate({ scrollTop: '0px' }, 300);
+            })
+    </script>
+</body>
+</html>

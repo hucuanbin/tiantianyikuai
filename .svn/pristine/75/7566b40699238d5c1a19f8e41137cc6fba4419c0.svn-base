@@ -1,0 +1,252 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <meta id="eqMobileViewport" name="viewport" content="width=320, initial-scale=1, maximum-scale=1, user-scalable=no" servergenerated="true">
+    <meta content="telephone=no" name="format-detection" />
+    <link href="css/h5.css" rel="stylesheet" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <title></title>
+</head>
+<body>
+    <div style="height:100%;position:relative;overflow:hidden" id="mo_big" class="h5_ceshi">
+        <div id="bofq">
+            <div class="miux_mor" style="display:inline-block;height:30px;width:30px;" id="xuanzhuan">
+                <img src="images/music_off.png" />
+                <audio src="css/you.mp3" autoplay=autoplay loop=loop id="music1" preload="auto"></audio>
+            </div>
+        </div>
+        <div style="width:100%;overflow:auto;overflow:hidden;height:100%" id="qi_fei" data-data="0">
+            <section class="section_wai">
+                <div class="shiti_gao">
+                    <div class="tu_zhu">
+                        <img src="images/h5_tub.png" class="tu_b" />
+                    </div>
+                    <div class="wenb_1_txt">
+                        我就是我<br />我们天天一块
+                    </div>
+                </div>
+            </section>
+            <section class="section_wai">
+                <div class="shiti_gao">
+                    <div class="tu_zhu2">
+                        <img src="images/h5_tub.png" class="tu_b"   />
+                    </div>
+                    <div class="h5_img_zhu h5_img_zhu_1">
+                        <img src="images/h5/yq0KZFXdWZuAcntDAAJ1npvngmk605.jpg" />
+                    </div>
+                    <div class="h5_img_zhu h5_img_zhu_2">
+                        <img src="images/h5/yq0KZFXdWZuAcntDAAJ1npvngmk605.jpg" />
+                    </div>
+                </div>
+            </section>
+            <section class="section_wai">
+                <div class="shiti_gao">
+                    <div class="tu_zhu2">
+                        <img src="images/h5_tub.png" class="tu_b" />
+                    </div>
+                    <div class="h5_img_zhu h5_img_zhu_1">
+                        <img src="images/h5/yq0KZFXdWZuAcntDAAJ1npvngmk605.jpg" />
+                    </div>
+                    <div class="h5_img_zhu h5_img_zhu_2">
+                        <img src="images/h5/yq0KZFXdWZuAcntDAAJ1npvngmk605.jpg" />
+                    </div>
+                </div>
+            </section>
+            <section class="section_wai" style="">
+                <div class="shiti_gao">
+                    <div class="tu_zhu2">
+                        <img src="images/h5_tub.png" class="tu_b" />
+                    </div>
+                    <div  class="yinbi">
+                        <img src="images/h5/yinbi.png" />
+                    </div>
+                </div>
+            </section>
+            <section class="section_wai" style="">
+                <div class="shiti_gao2">
+                    <div class="tu_zhu">
+                        <img src="images/h5_tub.png" class="tu_b" />
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </div>
+
+
+
+    <script>
+        //音乐加载完毕后  图标旋转 自动播放
+        $(function () {
+            getSong();
+        })
+
+        function getSong() {
+            var audio1 = document.getElementById("music1");
+            audio1.src = "css/you.mp3";
+            audio1.loop = true; //歌曲循环
+            playCotrol(); //播放控制函数
+
+        }
+        function playCotrol() {
+            var audio1 = document.getElementById("music1");
+            audio1.addEventListener("loadeddata", //歌曲一经完整的加载完毕( 也可以写成上面提到的那些事件类型)
+                function () {
+                    $("#xuanzhuan").addClass("miu_xiu");
+                    audio1.play();
+                }, false);
+        }
+
+        //音乐暂停和开始
+        $("#bofq").click(function () {
+            var audio = document.getElementById('music1');
+            if (audio !== null) {
+                //检测播放是否已暂停.audio.paused 在播放器播放时返回false.
+                if (audio.paused) {
+                    audio.play();//audio.play();// 这个就是播放
+                    $(this).children("div").addClass("miu_xiu");
+                } else {
+                    audio.pause();// 这个就是暂停
+                    $(this).children("div").removeClass("miu_xiu");
+                }
+            }
+        })
+    </script>
+    <script>
+        //禁止body 拖动
+        document.body.addEventListener('touchmove', function (e) {
+            e.stopPropagation();
+            e.preventDefault();
+        });
+    </script>
+    <script>
+        //页面初始化
+        $(document).ready(function () {
+            juz();
+            setTimeout(function () {
+                $("section:eq(0)").addClass("show");
+            }, 100)
+            $("section:eq(0)").show();
+            function juz() {
+                var zong_hei = parseInt($(window).height());
+                if (zong_hei > 480) {
+                    var b = (zong_hei - 480) / 2;
+                    $(".shiti_gao").css("margin", b + "px 0px");
+                }
+            }
+        })
+
+       
+     
+
+    </script>
+
+
+
+
+    <script>
+        var win_hei = $(window).height();
+        var startX,//触摸时的坐标
+        startY,
+        x, //滑动的距离
+        y,
+        juli,
+        fangshi,
+        aboveY = -1 * win_hei;
+        next_geshu = 1;
+        //设一个全局变量记录上一次内部块滑动的位置
+        var sc_lemg = parseInt($("#qi_fei>section").length) - 1;
+        var win_hei = parseInt($(window).height());
+        var qian, zhong, hou;
+
+        var inner = document.getElementById("qi_fei");
+        function touchSatrt(e) {//触摸
+            var touch = e.touches[0];
+            y = 0;
+            startY = touch.pageY; //刚触摸时的坐标
+            zhong = parseInt($("#qi_fei").attr("data-data"));
+
+            if (zhong == 0) {
+                qian = sc_lemg;
+            }
+            else {
+                qian = zhong - 1;
+            }
+            if (zhong == sc_lemg) {
+                hou = 0;
+            }
+            else {
+                hou = zhong + 1;
+            }
+        }
+
+        function touchMove(e) {//滑动
+
+            var touch = e.touches[0];
+            var rx, ty, tz, du_bili, jiao_bili;
+            y = touch.pageY - startY;//滑动的距离
+            $("#qi_fei>section:eq(" + zhong + ")").show();
+            $("#qi_fei>section:eq(" + qian + ")").show();
+            $("#qi_fei>section:eq(" + hou + ")").show();
+            $("#qi_fei>section:eq(" + qian + ")").css("top", -1 * win_hei + y + "px");
+            $("#qi_fei>section:eq(" + hou + ")").css("top", win_hei + y + "px");
+
+
+            if (y > 0) {
+                $("#qi_fei>section:eq(" + qian + ")").css("top", -1 * win_hei + y + "px");
+                $("#qi_fei>section:eq(" + zhong + ")").css("top", 0 + y + "px");
+            }
+            if (y < 0) {
+                $("#qi_fei>section:eq(" + zhong + ")").css("top", 0 + y + "px");
+                $("#qi_fei>section:eq(" + hou + ")").css("top", win_hei + y + "px")
+            }
+
+        }
+
+        function touchEnd(e) {//手指离开屏幕
+            console.log(y);
+            var fuhao = 0;
+            var weilai;
+            if (y > 0) {
+                fuhao = 1;
+                weilai = qian;
+            }
+            else if (y < 0) {
+                fuhao = -1;
+                weilai = hou
+            }
+            else {
+                return;
+            }
+            $("#qi_fei>section:eq(" + zhong + ")").animate({
+                top: (fuhao * win_hei) + "px"
+            }, 300);
+            $("#qi_fei>section:eq(" + weilai + ")").animate({
+                top: 0 + "px"
+            }, 300);
+            xiaoguo();
+            function xiaoguo() {
+                $("section:eq(" + weilai + ")").find(".tu_b").attr("class", "tu_b");
+                $("#qi_fei").children("section").attr("class", "section_wai");
+                $("#qi_fei").children("section:eq(" + weilai + ")").addClass("show");
+            }
+
+            $("#qi_fei").attr("data-data", weilai);
+
+
+        }//
+        document.getElementById("mo_big").addEventListener('touchstart', touchSatrt, false);
+        document.getElementById("mo_big").addEventListener('touchmove', touchMove, false);
+        document.getElementById("mo_big").addEventListener('touchend', touchEnd, false);
+    </script>
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,299 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta content="telephone=no" name="format-detection" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/shouji-css.css" rel="stylesheet" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <title></title>
+</head>
+<body>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <div class="container-fluid db_jl_top">
+        <a href="#sp-1" data-toggle="tab" class="mo_xz" data-widtg="35">全部</a>
+        <a href="#sp-2" data-toggle="tab" data-widtg="70">进行中(<span class="jinx_ing_num">1</span>)</a>
+        <a href="#sp-3" data-toggle="tab" data-widtg="35">揭晓</a>
+        <b></b>
+    </div>
+
+    <div class="container-fluid p0">
+        <div id="myTabContent" class="tab-content">
+            <!--全部-->
+            <div class="tab-pane fade   in active" id="sp-1">
+                <div class="quanbu_sq">
+                    <!--未结束 （可追加）-->
+                    <div>
+                        <div class="col-xs-3">
+                            <a href="shangp_xq.html">
+                                <img src="images/cpt.png" />
+                            </a>
+                        </div>
+                        <div class="col-xs-9">
+                            <p class="quanbu_biaoti">
+                                <a href="shangp_xq.html">
+                                    (第9638期)iPhone6 Plus 5.5英寸.5英寸
+                                </a>
+                            </p>
+                            <div class="col-xs-9 jindu_tiao">
+                                <span>总需:<b class="zong_shu">6088 </b>人次</span>
+                                <div>
+                                    <div></div>
+                                </div>
+                                <p>
+                                    <span><b class="yi_shu">3044 </b>已参与</span>
+                                    <span class="right">剩余<b class="sheng_shu color_0079FE">3044</b></span>
+                                </p>
+
+                            </div>
+                            <div class="col-xs-3 tianjia_qiiu jl_zhuij">
+                                <a class="btn_quan " href="shangp_xq.html">追加</a>
+                            </div>
+                            <p class="db_jl_benqi">本期参与：<b class="mo_xz">2</b>人次 <a class="color_0079FE">查看我的号码</a></p>
+                        </div>
+                    </div>
+                    <!--未结束 （可追加）-->
+                    <!--未结束 （不可追加）-->
+                    <div>
+                        <div class="col-xs-3">
+                            <a href="shangp_xq.html">
+                                <img src="images/cpt.png" />
+                            </a>
+                        </div>
+                        <div class="col-xs-9">
+                            <p class="quanbu_biaoti">
+                                <a href="shangp_xq.html">
+                                    (第9638期)iPhone6 Plus 5.5英寸.5英寸
+                                </a>
+                            </p>
+                            <div class="col-xs-9 jindu_tiao">
+                                <span>总需:<b class="zong_shu">6088 </b>人次</span>
+                                <div>
+                                    <div></div>
+                                </div>
+                                <p>
+                                    <span><b class="yi_shu">3044 </b>已参与</span>
+                                    <span class="right">剩余<b class="sheng_shu color_0079FE">3044</b></span>
+                                </p>
+
+                            </div>
+                            <div class="col-xs-3 tianjia_qiiu jl_zhuij">
+                                <a class="btn_quan qianw">抢完</a>
+                            </div>
+                            <p class="db_jl_benqi">本期参与：<b class="mo_xz">2</b>人次 <a class="color_0079FE">查看我的号码</a></p>
+                        </div>
+                    </div>
+                    <!--未结束 （不可追加）-->
+                    <!--揭晓 （开始）-->
+                    <div>
+                        <div class="col-xs-3">
+                            <img src="images/cpt.png" />
+                        </div>
+                        <div class="col-xs-9 jiex_nr">
+                            <p class="quanbu_biaoti">
+                                (第9638期)iPhone6 Plus 5.5英寸.5英寸
+                            </p>
+                            <ul>
+                                <li>
+                                    <div>
+                                        总需：
+                                    </div>
+                                    <div>
+                                        3588人次;
+                                    </div>
+                                </li>
+                                <li class="huoj_li">
+                                    <div style="">
+                                        获奖者：
+                                    </div>
+                                    <div style="float:right;">
+                                        <a class="color_0079FE">磊哥在不中就破产了</a>
+                                        (本期共参与68人次)
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        幸运号码：
+                                    </div>
+                                    <div>
+                                        <b class="mo_xz">10000161</b>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        揭晓时间：
+                                    </div>
+                                    <div>
+                                        2015-07-24 13:33:00
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        本期参与：
+                                    </div>
+                                    <div>
+                                        <b class="mo_xz">5</b>人次
+                                        <a class="color_0079FE">查看我的号码</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--揭晓 （结束）-->
+                </div>
+            </div>
+            <!--进行中-->
+            <div class="tab-pane fade jinx_ing" id="sp-2">
+                <div class="quanbu_sq">
+                    <!--未结束 （可追加）-->
+                    <div>
+                        <div class="col-xs-3">
+                            <a>
+                                <img src="images/cpt.png" />
+                            </a>
+                        </div>
+                        <div class="col-xs-9">
+                            <p class="quanbu_biaoti">
+                                <a>
+                                    (第9638期)iPhone6 Plus 5.5英寸.5英寸
+                                </a>
+                            </p>
+                            <div class="col-xs-9 jindu_tiao">
+                                <span>总需:<b class="zong_shu">6088 </b>人次</span>
+                                <div>
+                                    <div></div>
+                                </div>
+                                <p>
+                                    <span><b class="yi_shu">3044 </b>已参与</span>
+                                    <span class="right">剩余<b class="sheng_shu color_0079FE">3044</b></span>
+                                </p>
+
+                            </div>
+                            <div class="col-xs-3 tianjia_qiiu jl_zhuij">
+                                <a class="btn_quan ">追加</a>
+                            </div>
+                            <p class="db_jl_benqi">本期参与：<b class="mo_xz">2</b>人次 <b class="color_0079FE">查看我的号码</b></p>
+                        </div>
+                    </div>
+                    <!--未结束 （可追加）-->
+                    <!--未结束 （不可追加）-->
+                    <div>
+                        <div class="col-xs-3">
+                            <img src="images/cpt.png" />
+                        </div>
+                        <div class="col-xs-9">
+                            <p class="quanbu_biaoti">
+                                (第9638期)iPhone6 Plus 5.5英寸.5英寸
+                            </p>
+                            <div class="col-xs-9 jindu_tiao">
+                                <span>总需:<b class="zong_shu">6088 </b>人次</span>
+                                <div>
+                                    <div></div>
+                                </div>
+                                <p>
+                                    <span><b class="yi_shu">3044 </b>已参与</span>
+                                    <span class="right">剩余<b class="sheng_shu color_0079FE">3044</b></span>
+                                </p>
+
+                            </div>
+                            <div class="col-xs-3 tianjia_qiiu jl_zhuij">
+                                <a class="btn_quan qianw">抢完</a>
+                            </div>
+                            <p class="db_jl_benqi">本期参与：<b class="mo_xz">2</b>人次 <b class="color_0079FE">查看我的号码</b></p>
+                        </div>
+                    </div>
+                    <!--未结束 （不可追加）-->
+                </div>
+            </div>
+            <!--揭晓-->
+            <div class="tab-pane fade " id="sp-3">
+                <div class="quanbu_sq">
+                    <!--揭晓 （开始）-->
+                    <div>
+                        <div class="col-xs-3">
+                            <img src="images/cpt.png" />
+                        </div>
+                        <div class="col-xs-9 jiex_nr">
+                            <p class="quanbu_biaoti">
+                                (第9638期)iPhone6 Plus 5.5英寸.5英寸
+                            </p>
+                            <ul>
+                                <li>
+                                    <div>
+                                        总需：
+                                    </div>
+                                    <div>
+                                        3588人次;
+                                    </div>
+                                </li>
+                                <li class="huoj_li">
+                                    <div style="">
+                                        获奖者：
+                                    </div>
+                                    <div style="float:right;">
+                                        <a class="color_0079FE">磊哥在不中就破产了</a>
+                                        (本期共参与68人次)
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        幸运号码：
+                                    </div>
+                                    <div>
+                                        <b class="mo_xz">10000161</b>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        揭晓时间：
+                                    </div>
+                                    <div>
+                                        2015-07-24 13:33:00
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        本期参与：
+                                    </div>
+                                    <div>
+                                        <b class="mo_xz">5</b>人次
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--揭晓 （结束）-->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 通用-->
+    <a class="shouye" href="index.html">
+        <div>
+
+        </div>
+    </a>
+    <!-- 通用-->
+    <script>
+        //头部红线滑动
+        $(".db_jl_top a").click(function () {
+            var a = $(this).index() + 1;
+            var b = $(this).attr("data-widtg");
+            $(".db_jl_top b").css({
+                "left": (a * 33.3 + $(this).index() * 33.3) / 2 + "%",
+                "margin-left": b / 2 * -1 + "px",
+                "width": b + "px",
+            })
+            $(".db_jl_top>a").attr("class", "");
+            $(this).addClass("mo_xz");
+        });
+        //进行中数量赋值
+        $(document).ready(function () {
+            var a = $(".jinx_ing>div>div").length;
+            $(".jinx_ing_num").text(a);
+        })
+    </script>
+</body>
+</html>

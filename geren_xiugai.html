@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta content="telephone=no" name="format-detection" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/shouji-css.css" rel="stylesheet" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <title></title>
+</head>
+<body>
+    <!--修改昵称-->
+    <div class="xiuga_top">
+        <a data-toggle="modal" data-target="#myModal1" style="outline:none" href="#" class="left">取消</a>
+         修改昵称
+        <a href="#" class="right">保存</a>
+    </div>
+    <div class="xiugai_nc m-20">
+         <input autofocus placeholder="蓝雨听香" />
+    </div>
+    <!--修改昵称-->
+
+
+    <!--修改手机号-->
+    <div class="xiuga_top">
+        <a data-toggle="modal" data-target="#myModal1" style="outline:none" href="#" class="left">取消</a>
+        修改手机号码
+        <a href="#" class="right">保存</a>
+    </div>
+    <div class="xiugai_nc m-20">
+        <div>
+            <input autofocus placeholder="输入手机号码" />
+        </div>
+        <div>
+            <input autofocus placeholder="输入验证码" />
+            <button id="btn_send_code">获取短信验证码</button>
+        </div>
+    </div>
+    <script>
+        $("#btn_send_code").click(function () {
+            var a = 60;
+            $("#btn_send_code").attr("disabled", "disabled");
+
+            var mytime = setInterval(function () {
+                getTime();
+            }, 1000);
+            function getTime() {
+                if (a == 0) {
+                    $("#btn_send_code").attr("disabled", "");
+                    $("#btn_send_code").text("获取验证码");
+                    clearInterval(mytime);
+                }
+                else {
+                    a -= 1;
+                    $("#btn_send_code").text("重新发送（" + a + "）");
+                }
+            }
+            //点击代码
+            var mobile = $("#mobile").val();
+            if (mobile == "") {
+                alert('请填入手机号码！');
+                return;
+            }
+            $.ajax({
+                url: '/Register/Sent_Msg',
+                data: { 'mobile': mobile },
+                dataType: 'json',
+                type: 'post',
+                success: function (data) {
+                    if (data == true) {
+                    }
+                }
+            });
+            btn_timeout();
+        });
+    </script>
+    <!--修改手机号-->
+</body>
+</html>

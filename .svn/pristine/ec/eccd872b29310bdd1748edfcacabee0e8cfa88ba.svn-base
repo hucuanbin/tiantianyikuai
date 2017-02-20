@@ -64,7 +64,7 @@
             </a>
         </nav>
     </div>
-    <div class="container-fluid  p0 index_top_lunbo index_Lun">
+    <div class="container-fluid  p0 index_top_lunbo">
         <div class="kePublic kePublic1">
             <!--效果html开始-->
             <div class="slider1">
@@ -189,7 +189,6 @@
                     <span class="right">剩余<b class="sheng_shu color_0079FE">3044</b></span>
                 </p>
             </div>
-            <div class="tu_jihe_shiyuan_xiao"></div>
             <div class="col-xs-4 index_guc">
                 <img class="img-responsive gwc_tj" src="images/gouwuche.png" />
             </div>
@@ -210,7 +209,6 @@
                     <span class="right">剩余<b class="sheng_shu color_0079FE">3044</b></span>
                 </p>
             </div>
-            <div class="diqu_zhuanq"></div>
             <div class="col-xs-4 index_guc">
                 <img class="img-responsive gwc_tj" src="images/gouwuche.png" />
             </div>
