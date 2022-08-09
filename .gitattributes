@@ -1,3 +1,0 @@
-image filter=lfs diff=lfs merge=lfs -text
-*image !text !filter !merge !diff
-*images !text !filter !merge !diff
